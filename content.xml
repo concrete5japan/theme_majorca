@@ -867,7 +867,7 @@
                         <dateFormat><![CDATA[default]]></dateFormat>
                         <customDateFormat><![CDATA[]]></customDateFormat>
                         <enableTopCommentReviews><![CDATA[0]]></enableTopCommentReviews>
-                        <reviewAggregateAttributeKey><![CDATA[]]></reviewAggregateAttributeKey>
+                        <reviewAggregateAttributeKey><![CDATA[0]]></reviewAggregateAttributeKey>
                       </record>
                     </data>
                   </block>
@@ -1515,7 +1515,7 @@
                       <record>
                         <id><![CDATA[26]]></id>
                         <tmeId><![CDATA[1]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -1539,7 +1539,7 @@
                       <record>
                         <id><![CDATA[28]]></id>
                         <tmeId><![CDATA[3]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -1563,7 +1563,7 @@
                       <record>
                         <id><![CDATA[30]]></id>
                         <tmeId><![CDATA[5]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -4315,7 +4315,7 @@
                 <dateFormat><![CDATA[default]]></dateFormat>
                 <customDateFormat><![CDATA[]]></customDateFormat>
                 <enableTopCommentReviews><![CDATA[0]]></enableTopCommentReviews>
-                <reviewAggregateAttributeKey><![CDATA[]]></reviewAggregateAttributeKey>
+                <reviewAggregateAttributeKey><![CDATA[0]]></reviewAggregateAttributeKey>
               </record>
             </data>
           </block>
@@ -4405,7 +4405,7 @@
                 <dateFormat><![CDATA[default]]></dateFormat>
                 <customDateFormat><![CDATA[]]></customDateFormat>
                 <enableTopCommentReviews><![CDATA[0]]></enableTopCommentReviews>
-                <reviewAggregateAttributeKey><![CDATA[]]></reviewAggregateAttributeKey>
+                <reviewAggregateAttributeKey><![CDATA[0]]></reviewAggregateAttributeKey>
               </record>
             </data>
           </block>
@@ -4486,7 +4486,7 @@
                 <dateFormat><![CDATA[default]]></dateFormat>
                 <customDateFormat><![CDATA[]]></customDateFormat>
                 <enableTopCommentReviews><![CDATA[0]]></enableTopCommentReviews>
-                <reviewAggregateAttributeKey><![CDATA[]]></reviewAggregateAttributeKey>
+                <reviewAggregateAttributeKey><![CDATA[0]]></reviewAggregateAttributeKey>
               </record>
             </data>
           </block>
@@ -9023,7 +9023,7 @@
                     </style>
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9038,7 +9038,7 @@
                   <block type="majorca_testimonial_sns" name="">
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9091,7 +9091,7 @@
                     </style>
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9151,7 +9151,7 @@
                       <record>
                         <id><![CDATA[38]]></id>
                         <tmeId><![CDATA[1]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9175,7 +9175,7 @@
                       <record>
                         <id><![CDATA[40]]></id>
                         <tmeId><![CDATA[3]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9199,7 +9199,7 @@
                       <record>
                         <id><![CDATA[42]]></id>
                         <tmeId><![CDATA[5]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9258,7 +9258,7 @@
                       <record>
                         <id><![CDATA[50]]></id>
                         <tmeId><![CDATA[1]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9282,7 +9282,7 @@
                       <record>
                         <id><![CDATA[52]]></id>
                         <tmeId><![CDATA[3]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9306,7 +9306,7 @@
                       <record>
                         <id><![CDATA[54]]></id>
                         <tmeId><![CDATA[5]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9355,7 +9355,7 @@
                     </style>
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9370,7 +9370,7 @@
                   <block type="majorca_testimonial_sns" name="" custom-template="majorca_testimonial">
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9423,7 +9423,7 @@
                     </style>
                     <data table="btMajorcaTestimonialSns">
                       <record>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9483,7 +9483,7 @@
                       <record>
                         <id><![CDATA[62]]></id>
                         <tmeId><![CDATA[1]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9507,7 +9507,7 @@
                       <record>
                         <id><![CDATA[64]]></id>
                         <tmeId><![CDATA[3]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9531,7 +9531,7 @@
                       <record>
                         <id><![CDATA[66]]></id>
                         <tmeId><![CDATA[5]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9582,7 +9582,7 @@
                       <record>
                         <id><![CDATA[68]]></id>
                         <tmeId><![CDATA[1]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Co-Founder / CTO]]></position>
                         <company><![CDATA[]]></company>
@@ -9606,7 +9606,7 @@
                       <record>
                         <id><![CDATA[70]]></id>
                         <tmeId><![CDATA[3]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[Bob Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
@@ -9630,7 +9630,7 @@
                       <record>
                         <id><![CDATA[72]]></id>
                         <tmeId><![CDATA[5]]></tmeId>
-                        <fID />
+                        <fID><![CDATA[0]]></fID>
                         <name><![CDATA[John Smith]]></name>
                         <position><![CDATA[Art Director]]></position>
                         <company><![CDATA[]]></company>
