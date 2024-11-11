@@ -1,0 +1,145 @@
+/*----------------------------------------------
+	Google Map Styles
+----------------------------------------------*/
+
+.map-title {
+
+	h3 {
+		margin: 10px 0;
+		padding: 0;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: 700;
+		line-height: 1.2;
+		font-feature-settings: 'palt';
+		&:before {
+			margin-right: 5px;
+			color: @body-link-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f0c8';
+			.transition(all 0.3s ease-in-out);
+		}
+	}
+}
+
+.map-link {
+	margin: 0;
+	text-align: center;
+
+	a {
+		display: inline-block;
+		margin: 10px auto;
+		padding: 5px 10px;
+		font-size: 1em;
+		font-size: 1rem;
+		color: @button-text-color;
+		text-shadow: none;
+		background: @button-default-color;
+		border: 1px solid @button-accent-color;
+		box-shadow: none;
+		line-height: 1;
+
+// 		.border-radius(15px);
+		.box-shadow(~'0 1px 2px 1px rgba(0, 0, 0, 0.1)');
+		.transition(all 0.3s ease-in-out);
+		&:hover {
+			background: @button-effect-color;
+			text-decoration: none;
+			.box-shadow(~'0 2px 3px 1px rgba(0, 0, 0, 0.2)');
+			+ i {
+				background: darken(@button-primary-color, 10%);
+				.box-shadow(~'0 2px 3px 1px rgba(0, 0, 0, 0.2)');
+			}
+		}
+		&:focus {
+			outline: dotted 1px @button-effect-color;
+			outline-offset: -3px;
+			.box-shadow(~'0 0 0 0 rgba(0, 0, 0, 0)');
+		}
+	}
+}
+
+.navy {
+	.map-link {
+		a {
+			&:hover {
+				background: #57c0f7;
+				+ i {
+					background: darken(#272a44, 10%);
+				}
+			}
+			&:focus {
+				outline: dotted 1px #57c0f7;
+			}
+		}
+	}
+}
+
+.olive {
+	.map-link {
+		a {
+			&:hover {
+				background: #67c665;
+				+ i {
+					background: darken(#2e3e24, 10%);
+				}
+			}
+			&:focus {
+				outline: dotted 1px #67c665;
+			}
+		}
+	}
+}
+
+.wine {
+	.map-link {
+		a {
+			&:hover {
+				background: #f06f78;
+				+ i {
+					background: darken(#3e2432, 10%);
+				}
+			}
+			&:focus {
+				outline: dotted 1px #f06f78;
+			}
+		}
+	}
+}
+
+.content-secondary,
+.block-sidebar-wrapped {
+	.map-title {
+		margin-bottom: 15px;
+		font-size: @body-type-font-size;
+		position: relative;
+		&:after {
+			width: 100%;
+			height:8px;
+			margin: 0;
+			padding: 0;
+			content: '';
+			background: url(@hr-slash-image) repeat 0 0;
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+		}
+
+		h3 {
+			margin: 0;
+			padding: 0;
+			color: @page-main-color;
+			font-family: @page-title-type-font-family;
+			font-size: 1.2em;
+			font-size: 1.2rem;
+			font-weight: @font-weight-medium;
+			line-height: @line-height-tight;
+			&:before {
+				content: none;
+			}
+		}
+	}
+}

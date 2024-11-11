@@ -1,0 +1,120 @@
+.ccm-block-tags-wrapper {
+	margin: 0 0 30px;
+
+	.ccm-block-tags-header {
+
+		h5 {
+			margin: 10px 0;
+			padding: 0;
+			font-size: 1.2em;
+			font-size: 1.2rem;
+			font-weight: @font-weight-medium;
+			line-height: @line-height-tight;
+			font-feature-settings: 'palt';
+			&:before {
+				margin-right: 5px;
+				color: @body-link-color;
+				font-family: 'FontAwesome', sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				content: '\f0c8';
+				.transition(all 0.3s ease-in-out);
+			}
+			&:hover {
+				&:before {
+					color: @page-main-effect-color;
+				}
+			}
+		}
+	}
+
+	.ccm-block-tags-tag {
+		margin-right: 10px;
+		margin-bottom: 15px;
+		padding: 10px 15px;
+		color: @page-main-color;
+		font-size: 1em;
+		font-size: 1rem;
+		background-color: lighten(@page-main-accent-color, 20%);
+		.border-radius(4px);
+		.transition(all 0.3s ease-in-out);
+		&.label {
+			font-weight: normal;
+		}
+	}
+
+	a {
+		display: inline-block;
+	    &:hover,
+	    &:focus {
+			text-decoration: none;
+
+			.ccm-block-tags-tag {
+				background-color: lighten(@page-main-accent-color, 10%);
+			}
+		}
+	}
+
+	@media only screen and (min-width: 480px) {
+		.ccm-block-tags-tag {
+			margin-right: 5px;
+			margin-bottom: 5px;
+			padding: 5px 10px;
+			font-size: .9em;
+			font-size: .9rem;
+			.border-radius(2px);
+		}
+
+		a {
+
+		    &:hover,
+		    &:focus {
+				text-decoration: none;
+
+				.ccm-block-tags-tag {
+					background-color: @page-main-effect-color;
+				}
+			}
+		}
+	}
+}
+
+
+.content-secondary,
+.block-sidebar-wrapped {
+	.ccm-block-tags-wrapper {
+		margin: 0 0 30px;
+
+		.ccm-block-tags-header {
+			margin-bottom: 15px;
+			font-size: @body-type-font-size;
+			position: relative;
+			&:after {
+				width: 100%;
+				height:8px;
+				margin: 0;
+				padding: 0;
+				content: '';
+				background: url(@hr-slash-image) repeat 0 0;
+				position: absolute;
+				bottom: -8px;
+				left: 0;
+			}
+
+			h5 {
+				margin: 0;
+				padding: 0;
+				color: @page-main-color;
+				font-family: @page-title-type-font-family;
+				font-size: 1.2em;
+				font-size: 1.2rem;
+				font-weight: @font-weight-medium;
+				line-height: @line-height-tight;
+				&:before {
+					content: none;
+				}
+			}
+		}
+	}
+}

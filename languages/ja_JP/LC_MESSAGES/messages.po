@@ -1,0 +1,1428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Majorca\n"
+"POT-Creation-Date: 2018-04-16 18:08+0900\n"
+"PO-Revision-Date: 2018-04-16 18:08+0900\n"
+"Last-Translator: \n"
+"Language-Team: nipper.onside@gmail.com\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: themes/majorca/js\n"
+
+#: blocks/autonav/templates/majorca_bread_crumbs/view.php:27
+msgid "Empty Auto-Nav Block."
+msgstr "空のオートナビブロックです。"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:25
+#: blocks/express_entry_list/templates/majorca_express_entry_list/view.php:22
+#: blocks/express_entry_list/templates/majorca_express_entry_list_sidebar/view.php:22
+msgid "Keyword Search"
+msgstr "キーワード検索"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:28
+#: blocks/express_entry_list/templates/majorca_express_entry_list/view.php:25
+#: blocks/express_entry_list/templates/majorca_express_entry_list_sidebar/view.php:25
+#: themes/majorca/page_not_found.php:16 themes/majorca/page_not_found.php:17
+msgid "Search"
+msgstr "検索"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:31
+#: blocks/express_entry_list/templates/majorca_express_entry_list/view.php:28
+#: blocks/express_entry_list/templates/majorca_express_entry_list_sidebar/view.php:28
+msgid "Advanced Search"
+msgstr "詳細検索"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:35
+#: blocks/document_library/templates/majorca_document_library/view.php:54
+msgid "Add Files"
+msgstr "ファイルを追加"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:61
+msgid "Upload Files"
+msgstr "ファイルをアップロード"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:62
+msgid "Uploading"
+msgstr "アップロード中"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:149
+#: blocks/page_list/templates/announcement/view.php:158
+#: blocks/page_list/templates/majorca_announcement/view.php:179
+msgid "Previous"
+msgstr "前"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:150
+#: blocks/page_list/templates/announcement/view.php:159
+#: blocks/page_list/templates/majorca_announcement/view.php:180
+msgid "Next"
+msgstr "次"
+
+#: blocks/document_library/templates/majorca_document_library/view.php:159
+msgid "No files found."
+msgstr "ファイルがありません。"
+
+#: blocks/express_entry_list/templates/majorca_express_entry_list/view.php:135
+#: blocks/express_entry_list/templates/majorca_express_entry_list_sidebar/view.php:137
+#, php-format
+msgid "No \"%s\" entries can be found"
+msgstr "%s のエントリーが見つかりませんでした"
+
+#: blocks/faq/templates/faq_collapse/view.php:37
+#: blocks/faq/templates/faq_collapse_accordion/view.php:37
+#: blocks/faq/templates/faq_modals/view.php:50
+#: blocks/faq/templates/faq_pills/view.php:39
+#: blocks/faq/templates/faq_pills_justified/view.php:39
+#: blocks/faq/templates/faq_tabs/view.php:40
+#: blocks/faq/templates/faq_tabs_justified/view.php:40
+msgid "No Entries Entered."
+msgstr "エントリが入力されていません。"
+
+#: blocks/faq/templates/faq_modals/view.php:28
+#: blocks/faq/templates/faq_modals/view.php:37
+msgid "Close"
+msgstr "閉じる"
+
+#: blocks/file/templates/majorca_file/view.php:22
+msgid "Empty File Block."
+msgstr "空のファイルブロックです。"
+
+#: blocks/google_map/templates/majorca_map/view.php:6
+#: blocks/google_map/templates/majorca_map_navy/view.php:6
+#: blocks/google_map/templates/majorca_map_olive/view.php:6
+#: blocks/google_map/templates/majorca_map_wine/view.php:6
+msgid "Google Map disabled in edit mode."
+msgstr "Google Mapは編集モードでは表示されません。"
+
+#: blocks/google_map/templates/majorca_map/view.php:11
+#: blocks/google_map/templates/majorca_map_navy/view.php:11
+#: blocks/google_map/templates/majorca_map_olive/view.php:11
+#: blocks/google_map/templates/majorca_map_wine/view.php:11
+msgid "View Larger Map"
+msgstr "大きな地図で見る"
+
+#: blocks/image/templates/image_lightbox/svg/view.php:57
+#: blocks/image/templates/image_lightbox/view.php:55
+#: blocks/image/templates/image_link/svg/view.php:46
+#: blocks/image/templates/image_link/view.php:44
+msgid "Empty Image Block."
+msgstr "空の画像ブロックです。"
+
+#: blocks/image/templates/image_link/svg/view.php:43
+#: blocks/image/templates/image_link/view.php:40
+#: blocks/majorca_slick_slider/templates/majorca_slick_carousel/view.php:156
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:237
+#: blocks/majorca_topic_page_list/view.php:238
+#: blocks/page_list/templates/majorca_thumbnail_grid_carousel/view.php:95
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle/view.php:95
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_card_type/view.php:95
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_tiles/view.php:90
+#: blocks/page_list/templates/majorca_thumbnail_list/view.php:57
+msgid "Read More"
+msgstr "続きを読む"
+
+#: blocks/image_slider/templates/majorca_image_slider/view.php:13
+#: blocks/majorca_slick_slider/templates/majorca_slick_carousel/view.php:76
+#: blocks/majorca_slick_slider/templates/majorca_slick_carousel_lightbox/view.php:77
+#: blocks/majorca_slick_slider/templates/majorca_slick_thumb_nav/view.php:62
+#: blocks/majorca_slick_slider/view.php:63
+msgid "Image Slider disabled in edit mode."
+msgstr "画像スライダーは編集モードでは表示されません。"
+
+#: blocks/image_slider/templates/majorca_image_slider/view.php:104
+#: blocks/majorca_slick_slider/templates/majorca_slick_carousel/view.php:167
+#: blocks/majorca_slick_slider/templates/majorca_slick_carousel_lightbox/view.php:183
+#: blocks/majorca_slick_slider/templates/majorca_slick_thumb_nav/view.php:162
+#: blocks/majorca_slick_slider/view.php:149
+msgid "No Slides Entered."
+msgstr "スライドがありません。"
+
+#: blocks/majorca_feature_color/controller.php:26
+msgid "Displays an icon, a title, and a short paragraph description."
+msgstr "アイコン、タイトル、短い説明文を表示します。"
+
+#: blocks/majorca_feature_color/controller.php:31
+msgid "Majorca Feature Color"
+msgstr "マジョルカ カラー特色"
+
+#: blocks/majorca_feature_color/controller.php:112
+msgid "Choose Icon"
+msgstr "アイコンを選択"
+
+#: blocks/majorca_feature_color/form.php:8
+msgid "Display"
+msgstr "表示"
+
+#: blocks/majorca_feature_color/form.php:10
+msgid "Icon"
+msgstr "アイコン"
+
+#: blocks/majorca_feature_color/form.php:14
+msgid "Preview"
+msgstr "プレビュー"
+
+#: blocks/majorca_feature_color/form.php:45
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:306
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: blocks/majorca_feature_color/form.php:46
+msgid "Choose"
+msgstr "選択"
+
+#: blocks/majorca_feature_color/form.php:64
+msgid "Icon Color Picker"
+msgstr "アイコンのカラーピッカー"
+
+#: blocks/majorca_feature_color/form.php:65
+msgid ""
+"Please pick up a color in the picker or input in RGB color values.<br>For "
+"example: rgb(0, 0, 255)"
+msgstr ""
+"ピッカーで色を選択するか、RGB カラー値で入力してください<br>例: rgb (0, 0, "
+"255)"
+
+#: blocks/majorca_feature_color/form.php:66
+msgid "Required"
+msgstr "必須"
+
+#: blocks/majorca_feature_color/form.php:73
+#: blocks/majorca_slick_slider/form.php:402
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:184
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:191
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:191
+#: blocks/majorca_topic_page_list/view.php:184
+msgid "Title"
+msgstr "タイトル"
+
+#: blocks/majorca_feature_color/form.php:78
+msgid "Paragraph:"
+msgstr "段落:"
+
+#: blocks/majorca_feature_color/form.php:88
+#: blocks/majorca_slick_slider/form.php:411
+msgid "Link"
+msgstr "リンク"
+
+#: blocks/majorca_feature_color/form.php:92
+#: blocks/majorca_slick_slider/form.php:413
+msgid "None"
+msgstr "なし"
+
+#: blocks/majorca_feature_color/form.php:93
+#: blocks/majorca_slick_slider/form.php:414
+msgid "Another Page"
+msgstr "他のページ"
+
+#: blocks/majorca_feature_color/form.php:94
+#: blocks/majorca_slick_slider/form.php:415
+msgid "External URL"
+msgstr "外部URL"
+
+#: blocks/majorca_feature_color/form.php:99
+#: blocks/majorca_slick_slider/form.php:423
+msgid "Choose Page:"
+msgstr "ページを選択"
+
+#: blocks/majorca_feature_color/form.php:104
+msgid "URL"
+msgstr "URL"
+
+#: blocks/majorca_slick_slider/controller.php:46
+#: blocks/majorca_testimonial_carousel/controller.php:60
+msgid "Display your images and captions in an attractive slideshow format."
+msgstr "魅力的なスライドショーの形式で、画像やキャプションを表示します。"
+
+#: blocks/majorca_slick_slider/controller.php:51
+msgid "Majorca Slick Slider"
+msgstr "マジョルカ Slick スライダー"
+
+#: blocks/majorca_slick_slider/controller.php:165
+#: blocks/majorca_testimonial_carousel/controller.php:195
+msgid "Slide Duration must be greater than 0."
+msgstr "スライド間隔は0以上である必要があります。"
+
+#: blocks/majorca_slick_slider/controller.php:168
+#: blocks/majorca_testimonial_carousel/controller.php:198
+msgid "Slide Transition Speed must be greater than 0."
+msgstr "ライド変化速度は0以上である必要があります。"
+
+#: blocks/majorca_slick_slider/controller.php:173
+#: blocks/majorca_testimonial_carousel/controller.php:203
+msgid ""
+"Slide Duration must be at least 100 ms greater than the Slide Transition "
+"Speed."
+msgstr "スライド間隔はスライド変化速度よりも最低100ms少ない必要があります。"
+
+#: blocks/majorca_slick_slider/form.php:11
+#: blocks/majorca_testimonial_carousel/form.php:10
+msgid "Slides"
+msgstr "スライド"
+
+#: blocks/majorca_slick_slider/form.php:12
+#: blocks/majorca_testimonial_carousel/form.php:11
+msgid "Options"
+msgstr "オプション"
+
+#: blocks/majorca_slick_slider/form.php:29
+#: blocks/majorca_testimonial_carousel/form.php:30
+msgid "Are you sure?"
+msgstr "よろしいですか？"
+
+#: blocks/majorca_slick_slider/form.php:275
+msgid "Add Slide"
+msgstr "スライドを追加"
+
+#: blocks/majorca_slick_slider/form.php:281
+#: blocks/majorca_testimonial_carousel/form.php:297
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:42
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: blocks/majorca_slick_slider/form.php:284
+#: blocks/majorca_testimonial_carousel/form.php:300
+msgid "Arrows"
+msgstr "矢印"
+
+#: blocks/majorca_slick_slider/form.php:287
+#: blocks/majorca_testimonial_carousel/form.php:303
+msgid "Bullets"
+msgstr "ドット"
+
+#: blocks/majorca_slick_slider/form.php:290
+#: blocks/majorca_testimonial_carousel/form.php:306
+msgid "Arrows & Bullets"
+msgstr "矢印やドット"
+
+#: blocks/majorca_slick_slider/form.php:294
+#: blocks/majorca_testimonial_carousel/form.php:310
+msgid "Slide Duration"
+msgstr "スライド間隔"
+
+#: blocks/majorca_slick_slider/form.php:296
+#: blocks/majorca_slick_slider/form.php:302
+#: blocks/majorca_testimonial_carousel/form.php:312
+#: blocks/majorca_testimonial_carousel/form.php:318
+msgid "ms"
+msgstr "ms"
+
+#: blocks/majorca_slick_slider/form.php:300
+#: blocks/majorca_testimonial_carousel/form.php:316
+msgid "Slide Transition Speed"
+msgstr "スライド変化速度"
+
+#: blocks/majorca_slick_slider/form.php:310
+#: blocks/majorca_testimonial_carousel/form.php:326
+msgid "Disable Automatic Slideshow"
+msgstr "自動スライドショーを無効化"
+
+#: blocks/majorca_slick_slider/form.php:320
+#: blocks/majorca_testimonial_carousel/form.php:336
+msgid "Pause Slideshow on Hover"
+msgstr "マウスオーバーでスライドショーを一時停止"
+
+#: blocks/majorca_slick_slider/form.php:326
+#: blocks/majorca_testimonial_carousel/form.php:342
+msgid "Maximum Slide Width (0 means no limit)"
+msgstr "スライド最大横幅 (0 は制限無し)"
+
+#: blocks/majorca_slick_slider/form.php:328
+#: blocks/majorca_slick_slider/form.php:365
+#: blocks/majorca_testimonial_carousel/form.php:344
+msgid "px"
+msgstr "px"
+
+#: blocks/majorca_slick_slider/form.php:337
+#: blocks/majorca_testimonial_carousel/form.php:352
+msgid "Infinite loop sliding"
+msgstr "ループ再生"
+
+#: blocks/majorca_slick_slider/form.php:347
+msgid "Enable fade"
+msgstr "切り替えをフェードにする"
+
+#: blocks/majorca_slick_slider/form.php:357
+msgid ""
+"Enables centered view with partial prev/next slides. Use with odd numbered "
+"slidesToShow counts."
+msgstr "センターの左右に前後のスライドを表示。奇数番号のスライドに使用。"
+
+#: blocks/majorca_slick_slider/form.php:363
+msgid "Side padding when in center mode (px)"
+msgstr "センターモード時の左右のスライドの幅（px）"
+
+#: blocks/majorca_slick_slider/form.php:369
+msgid ""
+"Number of slide items for Thumbnail Slider Nav. or\n"
+"Max 4 for Carousel Slider."
+msgstr ""
+"サムネイルナビゲーションに表示させるアイテム数。または、最大4アイテム数のカ"
+"ルーセルスライダー。"
+
+#: blocks/majorca_slick_slider/form.php:380
+msgid "Center Mode (Thumbnail Slider Nav)"
+msgstr "センターモード （サムネイル・スライダーナビゲーション）"
+
+#: blocks/majorca_slick_slider/form.php:391
+#: blocks/majorca_testimonial_carousel/form.php:369
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:158
+msgid "Image"
+msgstr "画像"
+
+#: blocks/majorca_slick_slider/form.php:406
+msgid "Description"
+msgstr "説明"
+
+#: blocks/majorca_slick_slider/form.php:419
+msgid "URL:"
+msgstr "URL:"
+
+#: blocks/majorca_slick_slider/form.php:426
+msgid "Collapse Slide"
+msgstr "スライドをたたむ"
+
+#: blocks/majorca_slick_slider/form.php:426
+msgid "Edit Slide"
+msgstr "スライドを編集"
+
+#: blocks/majorca_slick_slider/form.php:427
+#: blocks/majorca_testimonial_carousel/form.php:432
+msgid "Remove"
+msgstr "削除"
+
+#: blocks/majorca_testimonial_carousel/controller.php:65
+msgid "Majorca Testimonial Carousel"
+msgstr "マジョルカ 紹介 カルーセルスライダー"
+
+#: blocks/majorca_testimonial_carousel/form.php:291
+msgid "Add Testmonial Item"
+msgstr "紹介アイテムを追加"
+
+#: blocks/majorca_testimonial_carousel/form.php:358
+msgid "Number of item to show"
+msgstr "表示するアイテムの数"
+
+#: blocks/majorca_testimonial_carousel/form.php:381
+#: blocks/majorca_testimonial_sns/form.php:26
+msgid "Name"
+msgstr "名前"
+
+#: blocks/majorca_testimonial_carousel/form.php:386
+#: blocks/majorca_testimonial_sns/form.php:31
+msgid "Position"
+msgstr "ポジション"
+
+#: blocks/majorca_testimonial_carousel/form.php:391
+#: blocks/majorca_testimonial_sns/form.php:36
+msgid "Company"
+msgstr "会社"
+
+#: blocks/majorca_testimonial_carousel/form.php:396
+#: blocks/majorca_testimonial_sns/form.php:41
+msgid "Company URL"
+msgstr "会社URL"
+
+#: blocks/majorca_testimonial_carousel/form.php:401
+#: blocks/majorca_testimonial_sns/form.php:46
+msgid "Bio/Quote"
+msgstr "自己紹介 / 引用"
+
+#: blocks/majorca_testimonial_carousel/form.php:405
+#: blocks/majorca_testimonial_sns/form.php:50
+msgid "Choose Social Links to Show"
+msgstr "表示するソーシャルリンクを選択"
+
+#: blocks/majorca_testimonial_carousel/form.php:431
+msgid "Collapse Testmonial Item"
+msgstr "紹介アイテムをたたむ"
+
+#: blocks/majorca_testimonial_carousel/form.php:431
+msgid "Edit Testmonial Item"
+msgstr "紹介アイテムを編集"
+
+#: blocks/majorca_testimonial_carousel/templates/majorca_testimonial/view.php:69
+#: blocks/majorca_testimonial_carousel/view.php:69
+msgid "Testmonial Carousel disabled in edit mode."
+msgstr "このコンテンツは編集モードでは表示されません。"
+
+#: blocks/majorca_testimonial_carousel/templates/majorca_testimonial/view.php:160
+#: blocks/majorca_testimonial_carousel/view.php:160
+#: blocks/majorca_testimonial_sns/templates/majorca_testimonial/view.php:21
+#: blocks/majorca_testimonial_sns/view.php:21
+#, php-format
+msgid "%s, <a href=\"%s\">%s</a>"
+msgstr "%s, <a href=\"%s\">%s</a>"
+
+#: blocks/majorca_testimonial_carousel/templates/majorca_testimonial/view.php:166
+#: blocks/majorca_testimonial_carousel/view.php:166
+#: blocks/majorca_testimonial_sns/templates/majorca_testimonial/view.php:27
+#: blocks/majorca_testimonial_sns/view.php:27
+#, php-format
+msgid "<a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a>"
+
+#: blocks/majorca_testimonial_carousel/templates/majorca_testimonial/view.php:172
+#: blocks/majorca_testimonial_carousel/view.php:172
+#: blocks/majorca_testimonial_sns/templates/majorca_testimonial/view.php:33
+#: blocks/majorca_testimonial_sns/view.php:33
+#, php-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: blocks/majorca_testimonial_sns/controller.php:34
+msgid ""
+"Displays a quote or paragraph next to biographical information and a "
+"person's picture."
+msgstr "人物の画像の隣に引用文や紹介文を表示させます。"
+
+#: blocks/majorca_testimonial_sns/controller.php:39
+msgid "Majorca Testimonial SNS"
+msgstr "マジョルカ 紹介 ソーシャルリンク"
+
+#: blocks/majorca_testimonial_sns/form.php:18
+msgid "Picture"
+msgstr "画像"
+
+#: blocks/majorca_testimonial_sns/form.php:21
+msgid "Choose File"
+msgstr "ファイルを選択してください"
+
+#: blocks/majorca_topic_page_list/controller.php:38
+msgid "List pages based on type, area."
+msgstr "タイプやエリアで指定した範囲のページのリストを表示します。"
+
+#: blocks/majorca_topic_page_list/controller.php:43
+msgid "Majorca Topic Page List"
+msgstr "マジョルカ トピック ページリスト"
+
+#: blocks/majorca_topic_page_list/controller.php:49
+msgid "Please give your RSS Feed a name."
+msgstr "RSSフィードの名前を入力してください。"
+
+#: blocks/majorca_topic_page_list/controller.php:383
+msgid ""
+"Your RSS feed must have a valid URL, containing only letters, numbers or "
+"underscores"
+msgstr ""
+"RSSフィードは有効なURLを設定してください。URLには半角英数字と下線のみ使用でき"
+"ます"
+
+#: blocks/majorca_topic_page_list/controller.php:386
+msgid "Your RSS feed must have a valid title."
+msgstr "RSSフィードに有効なタイトルを設定してください。"
+
+#: blocks/majorca_topic_page_list/controller.php:389
+msgid "Your RSS feed must have a valid description."
+msgstr "RSS フィードには有効な説明文を設定してください。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:18
+msgid "This Block should be used with Full Width."
+msgstr "このブロックは、全幅で使用する必要があります。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:21
+msgid "Settings"
+msgstr "設定"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:33
+msgid "Page Attribute"
+msgstr "ページ属性表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:53
+msgid "Sort Menu"
+msgstr "並び替えメニュー"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:57
+msgid "Display sort menu."
+msgstr "並び替えメニューを表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:64
+msgid "Number of Pages to Display"
+msgstr "表示するページ数"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:69
+msgid "Page Type"
+msgstr "ページタイプ"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:76
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:163
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:222
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:170
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:229
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:170
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:229
+#: blocks/majorca_topic_page_list/view.php:163
+#: blocks/majorca_topic_page_list/view.php:222
+msgid "All"
+msgstr "すべて"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:101
+msgid "Topics"
+msgstr "トピック"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:108
+msgid "No topic filtering"
+msgstr "トピックで絞り込みしない"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:117
+msgid "Custom Topic"
+msgstr "カスタムトピック"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:126
+msgid "Related Topic"
+msgstr "関連トピック"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:131
+#: blocks/majorca_topic_page_list/page_list_form.php:152
+msgid "Choose topics attribute."
+msgstr "トピック属性を選択してください。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:150
+msgid ""
+"Allows other blocks like the topic list block to pass search criteria to "
+"this page list block."
+msgstr ""
+"トピックリストブロックなどの他のブロックにこのページリストブロックに検索条件"
+"を渡すことを許可する。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:169
+msgid "Filter by Public Date"
+msgstr "日付で絞り込み"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:172
+msgid "Show All"
+msgstr "全て表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:173
+msgid "Today"
+msgstr "今日"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:174
+msgid "Before Today"
+msgstr "今日以前"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:175
+msgid "After Today"
+msgstr "今日以降"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:176
+msgid "Between"
+msgstr "期間"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:193
+msgid "Days in the Past"
+msgstr "過去の日数"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:193
+msgid "Leave 0 to show all past dated pages"
+msgstr "0 で全ての過去のページを表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:200
+msgid "Days in the Future"
+msgstr "未来の日数"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:200
+msgid "Leave 0 to show all future dated pages"
+msgstr "0 で全ての未来のページを表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:209
+msgid "and"
+msgstr "and"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:220
+msgid "Other Filters"
+msgstr "その他の絞り込み"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:230
+msgid "Featured pages only."
+msgstr "特集ページのみ。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:236
+msgid ""
+"(<strong>Note</strong>: You must create the \"is_featured\" page attribute "
+"first.)"
+msgstr ""
+"(<strong>注意</strong>: \"is_featured\"というページ属性を作成する必要がありま"
+"す。)"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:248
+msgid "Display page aliases."
+msgstr "エイリアスページを表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:256
+msgid "Ignore page permissions."
+msgstr "ページ権限を無視する"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:263
+msgid "Enable Other Blocks to Filter This Page List."
+msgstr "他のブロックからこのページリストの絞り込みを有効にする。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:271
+msgid "Pagination"
+msgstr "ページ付け"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:277
+msgid ""
+"Display pagination interface if more items are available than are displayed."
+msgstr ""
+"表示数よりもアイテムが多い場合、ページ付けインターフェースを表示します。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:285
+msgid "Location"
+msgstr "場所"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:293
+msgid "Everywhere"
+msgstr "すべて"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:302
+msgid "Beneath this page"
+msgstr "ここのページ以下"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:309
+msgid "At the current level"
+msgstr "現在のレベル"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:318
+msgid "Beneath another page"
+msgstr "他のページ以下の階層"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:335
+msgid "Include all child pages"
+msgstr "すべての子ページを含む"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:347
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:178
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:185
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:185
+#: blocks/majorca_topic_page_list/view.php:178
+msgid "Sort"
+msgstr "並び替え"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:352
+msgid "Sitemap order"
+msgstr "サイトマップ順"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:357
+msgid "Reverse sitemap order"
+msgstr "逆サイトマップ順"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:362
+msgid "Most recent first"
+msgstr "新規記事を最初に"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:367
+msgid "Earliest first"
+msgstr "一番古いページを最初に"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:372
+msgid "Alphabetical order"
+msgstr "アルファベット順"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:377
+msgid "Reverse alphabetical order"
+msgstr "逆アルファベット順"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:382
+msgid "Random"
+msgstr "ランダム"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:389
+msgid "Output"
+msgstr "出力"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:391
+msgid "Provide RSS Feed"
+msgstr "RSSフィードを出力"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:395
+#: blocks/majorca_topic_page_list/page_list_form.php:437
+#: blocks/majorca_topic_page_list/page_list_form.php:453
+#: blocks/majorca_topic_page_list/page_list_form.php:483
+#: blocks/majorca_topic_page_list/page_list_form.php:500
+#: blocks/majorca_topic_page_list/page_list_form.php:524
+msgid "No"
+msgstr "いいえ"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:401
+#: blocks/majorca_topic_page_list/page_list_form.php:443
+#: blocks/majorca_topic_page_list/page_list_form.php:459
+#: blocks/majorca_topic_page_list/page_list_form.php:489
+#: blocks/majorca_topic_page_list/page_list_form.php:507
+#: blocks/majorca_topic_page_list/page_list_form.php:530
+msgid "Yes"
+msgstr "はい"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:407
+#, php-format
+msgid "RSS Feed can be found here: <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr "RSSフィードはこちら: <a href=\"%s\" target=\"_blank\">%s</a>"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:412
+msgid "RSS Feed Title"
+msgstr "RSSフィードのタイトル"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:417
+msgid "RSS Feed Description"
+msgstr "RSSフィードの説明"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:421
+msgid "RSS Feed Location"
+msgstr "RSS フィードの場所"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:433
+msgid "Include Page Name"
+msgstr "ページ名を含める"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:449
+msgid "Include Page Description"
+msgstr "ページの説明を含める"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:463
+msgid "Display Truncated Description"
+msgstr "説明文を切り詰めて表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:472
+msgid "characters"
+msgstr "文字"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:479
+msgid "Include Public Page Date"
+msgstr "日付を含める"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:492
+msgid ""
+"This is usually the date the page is created. It can be changed from the "
+"page attributes panel."
+msgstr "これは通常ページが作成された日です。ページ属性パネルから変更できます。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:495
+msgid "Display Thumbnail Image"
+msgstr "サムネイル画像を表示"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:513
+msgid ""
+"You must create an attribute with the 'thumbnail' handle in order to use "
+"this option."
+msgstr ""
+"このオプションを使用するためには、\"thumbnail\"というハンドルの属性が作成され"
+"ていることが必要です。"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:520
+msgid "Use Different Link than Page Name"
+msgstr "ページ名とは違うリンクを使用する"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:535
+msgid "Link Text"
+msgstr "リンク文字"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:542
+msgid "Title of Page List"
+msgstr "ページリストのタイトル"
+
+#: blocks/majorca_topic_page_list/page_list_form.php:547
+msgid "Message to Display When No Pages Listed."
+msgstr "表示するページがない場合のメッセージ"
+
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:143
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:150
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:150
+#: blocks/majorca_topic_page_list/view.php:143
+msgid "Please use this block with Full Width."
+msgstr "このブロックは全幅でご使用ください。"
+
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:181
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:188
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:188
+#: blocks/majorca_topic_page_list/view.php:181
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:98
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:129
+msgid "Default"
+msgstr "デフォルト"
+
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:187
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:194
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:194
+#: blocks/majorca_topic_page_list/view.php:187
+msgid "Date Created"
+msgstr "作成日時"
+
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort/view.php:276
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_card_type_filter_sort_lightbox/view.php:292
+#: blocks/majorca_topic_page_list/templates/thumbnail_grid_shuffle_filter_sort_lightbox/view.php:292
+#: blocks/majorca_topic_page_list/view.php:267
+#: blocks/page_list/templates/announcement/view.php:14
+#: blocks/page_list/templates/majorca_announcement/view.php:13
+#: blocks/page_list/templates/majorca_thumbnail_grid/view.php:116
+#: blocks/page_list/templates/majorca_thumbnail_grid_carousel/view.php:117
+#: blocks/page_list/templates/majorca_thumbnail_grid_carousel_lightbox/view.php:123
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle/view.php:136
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_card_type/view.php:136
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_card_type_lightbox/view.php:150
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_lightbox/view.php:150
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_tiles/view.php:119
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_tiles_lightbox/view.php:133
+#: blocks/page_list/templates/majorca_thumbnail_list/view.php:89
+#: blocks/page_list/templates/majorca_thumbnail_list_lightbox/view.php:103
+msgid "Empty Page List Block."
+msgstr "空のページリストブロックです。"
+
+#: blocks/page_list/templates/announcement/view.php:69
+#: blocks/page_list/templates/majorca_announcement/view.php:79
+msgid "F d, Y"
+msgstr "Y年n月j日"
+
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle/view.php:48
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_card_type/view.php:48
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_card_type_lightbox/view.php:54
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_lightbox/view.php:54
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_tiles/view.php:47
+#: blocks/page_list/templates/majorca_thumbnail_grid_shuffle_tiles_lightbox/view.php:53
+msgid "Please use this template with Full Width."
+msgstr "このテンプレートは全幅でご使用ください。"
+
+#: controller.php:23
+msgid "A smart and modern responsive theme based on the Bootstrap framework."
+msgstr "ブートストラップを使用したスマートでモダンなレスポンシブ・テーマ。"
+
+#: controller.php:28 themes/majorca/page_theme.php:39
+msgid "Majorca"
+msgstr "マジョルカ"
+
+#: controllers/single_page/dashboard/pages/majorca_theme_options/setting.php:50
+msgid "Settings saved successfully."
+msgstr "設定が保存されました。"
+
+#: elements/dashboard/install.php:4
+msgid ""
+"<strong>Attention!</strong> Clearing your site's content prior to installing "
+"this theme is highly recommended."
+msgstr ""
+"<strong>注意!</strong>このテーマをインストールする前に、サイトのコンテンツを"
+"クリアすることをお勧めします。"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:45
+msgid "Align Global Navigation"
+msgstr "グローバルナビゲーションの位置"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:46
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:52
+msgid "Center"
+msgstr "中央"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:46
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:53
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:67
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:84
+msgid "Left"
+msgstr "左"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:46
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:54
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:72
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:85
+msgid "Right"
+msgstr "右"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:46
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:55
+msgid "Full Width"
+msgstr "全幅"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:46
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:56
+msgid "Button"
+msgstr "ボタン"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:49
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:81
+msgid "View image"
+msgstr "イメージを参照"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:64
+msgid "Position of Mobile Navigation"
+msgstr "ハンバーガーメニューの位置"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:77
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:86
+msgid "Top"
+msgstr "上"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:93
+msgid "Header Area"
+msgstr "ヘッダーエリア"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:95
+msgid "Header Layout"
+msgstr "ヘッダーのレイアウト"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:103
+msgid "Elemental Style"
+msgstr "エレメンタル・スタイル"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:108
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:139
+msgid "Simple"
+msgstr "シンプル"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:114
+msgid "Header Dark Color"
+msgstr "ヘッダー・ダークカラー"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:117
+msgid "Inverted to the dark color"
+msgstr "ダークカラーに反転"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:124
+msgid "Footer Area"
+msgstr "フッターエリア"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:126
+msgid "Footer Layout"
+msgstr "フッターのレイアウト"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:134
+msgid "Portfolio"
+msgstr "ポートフォリオ"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:146
+msgid "Home Splash Area"
+msgstr "ホームのスプラッシュエリア"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:149
+msgid "Choose Image or Video"
+msgstr "ビデオ、または画像を選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:150
+msgid "-- None --"
+msgstr "-- なし --"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:150
+msgid "Splash Image"
+msgstr "スプラッシュイメージ"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:150
+msgid "Splash Video"
+msgstr "スプラッシュビデオ"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:160
+msgid "Choose Image"
+msgstr "画像を選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:168
+msgid "MP4"
+msgstr "MP4"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:170
+msgid "Choose MP4 Video File"
+msgstr "MP4 形式ビデオを選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:176
+msgid "WebM"
+msgstr "WebM"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:178
+msgid "Choose WebM Video File"
+msgstr "WebM 形式ビデオを選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:183
+msgid "Ogg"
+msgstr "Ogg"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:185
+msgid "Choose Ogg Video File"
+msgstr "OGG 形式ビデオを選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:190
+msgid "Video Placeholder Image (Optional)"
+msgstr "ビデオサムネイル画像 (オプション)"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:192
+msgid "Choose Video Placeholder Image"
+msgstr "ビデオサムネイル画像を選択"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:199
+msgid "Video Autoplay"
+msgstr "ビデオの自動再生"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:202
+msgid "Start a video automatically"
+msgstr "動画を自動再生"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:208
+msgid "Video Loop"
+msgstr "ループ再生"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:211
+msgid "Start over again"
+msgstr "動画をループ再生"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:217
+msgid "Video Preload"
+msgstr "ビデオ プリロード"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:220
+msgid ""
+"Tells the browser not to download any of the video when autoplay is not used"
+msgstr "自動再生ではない場合にブラウザがビデオをダウンロードしないようにします"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:229
+msgid "Splash Heading"
+msgstr "スプラッシュの見出し"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:230
+msgid "Heading"
+msgstr "見出し"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:236
+msgid "Splash Caption"
+msgstr "スプラッシュの説明文"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:237
+msgid "Caption"
+msgstr "説明文"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:242
+msgid "Show Skip button"
+msgstr "スキップボタンを表示"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:245
+msgid "Show skip button in splash area"
+msgstr "スプラッシュエリアのスキップボタンを表示"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:252
+msgid "Skip Button Text"
+msgstr "スキップボタンのテキスト"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:253
+msgid "View contents"
+msgstr "コンテンツを表示"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:259
+msgid "Others"
+msgstr "その他"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:261
+msgid "Page Transition Effect"
+msgstr "ページ遷移のエフェクト"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:264
+msgid "Load page transition script"
+msgstr "ページ遷移のスクリプトを読み込む"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:270
+msgid "Load Parallax Script"
+msgstr "パララックスのスクリプトを読み込む"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:273
+msgid "Load \"jquery.appear.js\""
+msgstr "\"jquery.appear.js\" を読み込む"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:277
+msgid "Item appear from the top : Add \"item-top\" in a custom class"
+msgstr "アイテムを上から表示 : \"item-top\" をカスタムクラスに追加"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:278
+msgid "Item appear from the bottom : Add \"item-bottom\" in a custom class"
+msgstr "アイテムを下から表示 : \"item-bottom” をカスタムクラスに追加"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:279
+msgid "Item appear from the left : Add \"item-left\" in a custom class"
+msgstr "アイテムを左から表示 : \"item-left” をカスタムクラスに追加"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:280
+msgid "Item appear from the right : Add \"item-right\" in a custom class"
+msgstr "アイテムを右から表示 : \"item-right\" をカスタムクラスに追加"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:281
+msgid "Item fade in : Add \"item-fade-in\" in a custom class"
+msgstr "アイテムをフェードイン : \"item-fade-in\" をカスタムクラスに追加"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:283
+msgid "\"jquery.appear.js\" does not work in edit mode."
+msgstr "\"jquery.appear.js\" は編集モードでは動作しません。"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:289
+msgid "Show Login Button"
+msgstr "ログインボタンを表示"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:292
+msgid "Show login button"
+msgstr "ログインボタンを表示"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:296
+msgid "Login button is displayed at the bottom of the page"
+msgstr "ログインボタンをページの下部に表示します"
+
+#: single_pages/dashboard/pages/majorca_theme_options/setting.php:307
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: themes/majorca/inc/footer_bottom.php:14
+msgid "Back to Top"
+msgstr "ページの先頭へ"
+
+#: themes/majorca/inc/header_top.php:53
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: themes/majorca/inc/layout/footer_show_login_button.php:11
+msgid ""
+"Built with <a href=\"http://www.concrete5.org\" class=\"concrete5\" rel="
+"\"nofollow\">concrete5</a> CMS."
+msgstr ""
+"Built with <a href=\"http://www.concrete5.org\" class=\"concrete5\" rel="
+"\"nofollow\">concrete5</a> CMS."
+
+#: themes/majorca/inc/layout/home_splash_image.php:28
+msgid "Splash Image disabled in edit mode."
+msgstr "スプラッシュイメージは編集モードでは表示されません。"
+
+#: themes/majorca/inc/layout/home_splash_image.php:28
+#: themes/majorca/inc/layout/home_splash_video.php:62
+msgid "Please edit with theme option."
+msgstr "テーマオプションで編集してください。"
+
+#: themes/majorca/inc/layout/home_splash_image.php:138
+msgid "No Image Files Selected."
+msgstr "画像ファイルが選択されていません。"
+
+#: themes/majorca/inc/layout/home_splash_image.php:156
+#: themes/majorca/inc/layout/home_splash_video.php:194
+msgid "scroll"
+msgstr "スクロール"
+
+#: themes/majorca/inc/layout/home_splash_video.php:62
+msgid "Splash Video disabled in edit mode."
+msgstr "スプラッシュビデオは編集モードでは表示されません。"
+
+#: themes/majorca/inc/layout/home_splash_video.php:172
+msgid "Your browser doesn't support the HTML5 video tag."
+msgstr "このブラウザは HTML ビデオタグをサポートしていません。"
+
+#: themes/majorca/inc/layout/home_splash_video.php:176
+msgid "No Video Files Selected."
+msgstr "ビデオファイルが選択されていません。"
+
+#: themes/majorca/page_forbidden.php:12
+msgid "403 Error"
+msgstr "403エラー"
+
+#: themes/majorca/page_forbidden.php:13
+msgid "You are not allowed to access this page."
+msgstr "このページへのアクセス権がありません。"
+
+#: themes/majorca/page_not_found.php:11
+msgid "404 Error"
+msgstr "404エラー"
+
+#: themes/majorca/page_not_found.php:13
+msgid "Page not found, so please search."
+msgstr "ページが見つかりません、検索してみてください。"
+
+#: themes/majorca/page_theme.php:44
+msgid ""
+"Smart and Modern responsive theme with Theme Customizer, Theme Options. "
+"Support for blogs, portfolios, layouts and more."
+msgstr ""
+"テーマ・カスタマイザーやテーマ・オプションを含む、スマートでモダンなレスポン"
+"シブ・テーマ。ブログ、ポートフォリオ、レイアウトなどをサポート。"
+
+#: themes/majorca/page_theme.php:197
+msgid "Title Crosshead"
+msgstr "クロスヘッド"
+
+#: themes/majorca/page_theme.php:198
+msgid "Title Subhead"
+msgstr "サブヘッド"
+
+#: themes/majorca/page_theme.php:199
+msgid "Title Thin"
+msgstr "細いタイトル"
+
+#: themes/majorca/page_theme.php:200
+msgid "Title Caps"
+msgstr "大文字タイトル"
+
+#: themes/majorca/page_theme.php:201
+msgid "Title Caps Bold"
+msgstr "タイトル 大文字 太字"
+
+#: themes/majorca/page_theme.php:202
+msgid "Title Serif"
+msgstr "セリフ文字"
+
+#: themes/majorca/page_theme.php:203
+msgid "Title Playball"
+msgstr "プレイボール（Playball）"
+
+#: themes/majorca/page_theme.php:204
+msgid "Title Lobster"
+msgstr "ロブスター（Lobster）"
+
+#: themes/majorca/page_theme.php:205
+msgid "Title Caveat"
+msgstr "キャヴィアート（Caveat）"
+
+#: themes/majorca/page_theme.php:206
+msgid "Image Caption"
+msgstr "画像キャプション"
+
+#: themes/majorca/page_theme.php:207
+msgid "Standard Button"
+msgstr "標準ボタン"
+
+#: themes/majorca/page_theme.php:208
+msgid "Primary Button"
+msgstr "重要なボタン"
+
+#: themes/majorca/page_theme.php:209
+msgid "Success Button"
+msgstr "OKボタン"
+
+#: themes/majorca/page_theme.php:210
+msgid "Primary Text"
+msgstr "重要なテキスト"
+
+#: themes/majorca/page_theme.php:211
+msgid "Success Text"
+msgstr "成功のテキスト"
+
+#: themes/majorca/page_theme.php:212
+msgid "Info Text"
+msgstr "お知らせのテキスト"
+
+#: themes/majorca/page_theme.php:213
+msgid "Warning Text"
+msgstr "注意のテキスト"
+
+#: themes/majorca/page_theme.php:214
+msgid "Danger Text"
+msgstr "警告のテキスト"
+
+#: themes/majorca/page_theme.php:215
+msgid "Oredered List"
+msgstr "番号付きリスト"
+
+#~ msgid "A smart business theme based on the Bootstrap framework."
+#~ msgstr "ブートストラップを使用したスマートなビジネステーマ。"
+
+#~ msgid ""
+#~ "Pick up a color in the picker or input in RGB color values.<br>For "
+#~ "example, rgb(0, 0, 255)"
+#~ msgstr "ピッカーで色を選択するか、RGB カラー値で入力<br>例、rgb (0, 0, 255)"
+
+#~ msgid "Access Denied."
+#~ msgstr "\"アクセス拒否\""
+
+#~ msgid "Whoops, looks like something went wrong."
+#~ msgstr "おっと、何かが間違っているようです！"
+
+#~ msgid "If checked, start a video automatically"
+#~ msgstr "チェックした場合、ビデオを自動再生"
+
+#~ msgid "If checked, start over again"
+#~ msgstr "チェックした場合、ビデオをループ再生"
+
+#~ msgid ""
+#~ "If checked, tells the browser not to download any of the video when "
+#~ "autoplay is not used"
+#~ msgstr ""
+#~ "チェックした場合、自動再生ではないときにブラウザがビデオをダウンロードしな"
+#~ "いようにします"
+
+#~ msgid "If checked, show skip button in splash area"
+#~ msgstr "チェックした場合、スプラッシュエリアのスキップボタンを表示"
+
+#~ msgid "If checked, load page transition script"
+#~ msgstr "チェックした場合、ページ遷移のスクリプトを読み込む"
+
+#~ msgid "If checked, load \"jquery.appear.js\""
+#~ msgstr "チェックした場合、\"jquery.appear.js”を読み込む"
+
+#~ msgid "If checked, show login button"
+#~ msgstr "チェックした場合、ログインボタンを表示"
+
+#~ msgid "Header Logo Image"
+#~ msgstr "ヘッダーロゴ画像"
+
+#~ msgid ""
+#~ "If checked, tells the browser not to download any of the video when "
+#~ "autoplay is not used."
+#~ msgstr ""
+#~ "オンにした場合、自動再生が使用されていないときにブラウザがビデオをダウン"
+#~ "ロードしないようにします"
+
+#~ msgid "Video Controls"
+#~ msgstr "ビデオのインターフェース"
+
+#~ msgid "If checked, show video control buttons"
+#~ msgstr "オンにした場合、ビデオのコントロールボタンを表示"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "google+"
+#~ msgstr "Google+"
+
+#~ msgid "github"
+#~ msgstr "GitHub"
+
+#~ msgid "Linkedin"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Splash Button Text"
+#~ msgstr "スプラッシュボタンのテキスト"
+
+#~ msgid "Check to start a video automatically"
+#~ msgstr "チェックでビデオを自動再生"
+
+#~ msgid "Check to start over again"
+#~ msgstr "チェックでビデオをループ再生"
+
+#~ msgid "Check to show skip button in splash area"
+#~ msgstr "スプラッシュエリアのスキップボタンを表示"
+
+#~ msgid "Check to load \"jquery.appear.js\""
+#~ msgstr "チェックで \"jquery.appear.js\" を読み込む"
+
+#~ msgid "Item appear from the top : \"item-top\" in custom class"
+#~ msgstr "アイテムが上から表示 : \"item-top\" をカスタムクラスに記述"
+
+#~ msgid "Item appear from the bottom : \"item-bottom\" in custom class"
+#~ msgstr "アイテムが下から表示 : \"item-bottom\" をカスタムクラスに記述"
+
+#~ msgid "Item appear from the left : \"item-left\" in custom class"
+#~ msgstr "アイテムが左から表示 : \"item-left” をカスタムクラスに記述"
+
+#~ msgid "Item appear from the right : \"item-right\" in custom class"
+#~ msgstr "アイテムが右から表示 : \"item-right” をカスタムクラスに記述"
+
+#~ msgid "Item fade in : \"item-fade-in\" in custom class"
+#~ msgstr ""
+#~ "アイテムがフェードインで表示 : \"item-fade-in” をカスタムクラスに記述"
+
+#~ msgid "Check to show login button"
+#~ msgstr "チェックでログインボタンを表示"
+
+#~ msgid "Header Section"
+#~ msgstr "ヘッダーエリア"
+
+#~ msgid "Footer Section"
+#~ msgstr "フッターのレイアウト"

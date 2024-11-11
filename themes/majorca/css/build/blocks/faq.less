@@ -1,0 +1,203 @@
+.ccm-faq-container {
+	.clearfix();
+
+	.ccm-faq-block-links {
+
+		a {
+			display: block;
+			margin-bottom: 10px;
+		}
+	}
+
+	.ccm-faq-block-entries {
+		position: relative;
+		min-height: 1px;
+
+		h3 {
+			margin-top: 0px;
+		}
+
+		.faq-entry-content {
+			margin-bottom: 50px;
+		}
+	}
+
+}
+
+@media (min-width: 1200px) {
+	.ccm-faq-container {
+		.ccm-faq-block-links {
+			float: left;
+			width: 25%;
+		}
+	}
+
+	.ccm-faq-block-entries {
+		float: left;
+		width: 66.66666667%;
+		margin-left: 8.33333333%;
+	}
+}
+
+
+
+.majorca-faq-tabs-container {
+
+	.nav-tabs {
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid lighten(@button-accent-color, 20%);
+		&.nav-justified {
+			border-bottom: 0;
+		}
+	}
+
+	.nav-tabs > li > a {
+		display: block;
+		color: @button-text-color;
+// 	    background-color: @button-default-color;
+		&:hover {
+			color: @body-link-hover-color;
+			background: lighten(@button-accent-color, 20%);
+		}
+		&:focus {
+			outline-offset: -4px;
+		}
+	}
+
+	.nav-tabs > li.active > a,
+	.nav-tabs > li.active > a:hover,
+	.nav-tabs > li.active > a:focus {
+		background-color: @button-default-color;
+	    border: 1px solid lighten(@button-accent-color, 20%);
+	    border-bottom-color: transparent;
+	    cursor: default;
+	    pointer-events: none;
+	}
+
+	.tab-content {
+		position: relative;
+
+		.tab-pane {
+			margin-bottom: 50px;
+		}
+	}
+
+}
+
+
+
+.majorca-faq-pills-container {
+
+	.nav-pills {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav-pills > li > a {
+		padding: 8px 12px;
+		color: @button-text-color;
+		font-size: 1em;
+		font-size: 1rem;
+		line-height: 1.4;
+		background: @button-default-color;
+		border: 1px solid @button-accent-color;
+		.border-radius(2px);
+
+		&:hover {
+			color: @body-link-hover-color;
+			background: lighten(@button-accent-color, 20%);
+		}
+	}
+
+	.nav-pills > li.active > a,
+	.nav-pills > li.active > a:hover,
+	.nav-pills > li.active > a:focus {
+// 		padding: 8px 12px;
+		color: #fff;
+		border: solid 1px @button-primary-color;
+		background-color: @button-primary-color;
+		.border-radius(2px);
+		pointer-events: none;
+	}
+}
+
+
+
+.majorca-faq-collapse-container {
+
+	.collapse-nav {
+		margin-bottom: 15px;
+
+		.btn {
+			margin-bottom: 5px;
+			text-align: left;
+			white-space: normal;
+			.border-radius(2px);
+		}
+	}
+
+	.panel-group {
+		.panel {
+		    .border-radius(2px);
+	    }
+		.panel+.panel {
+	    	margin-top: 5px;
+	    }
+	}
+
+	.panel-heading {
+		padding: 8px 12px;
+		border-top-right-radius: 2px;
+		border-top-left-radius: 2px;
+
+		.panel-title {
+			margin: 0;
+			font-size: 1.1em;
+			font-size: 1.1rem;
+
+			a {
+				display: block;
+				&:not(.collapsed) {
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+.majorca-faq-modals-container {
+
+	.modals-nav {
+		margin-bottom: 15px;
+
+		.btn {
+			margin-bottom: 5px;
+			text-align: left;
+			white-space: normal;
+			.border-radius(2px);
+		}
+	}
+
+	.modal {
+		top: 55px;
+	}
+
+	@media (min-width: 768px) {
+		.modal {
+			top: 0;
+		}
+	}
+}
+
+.panel-default>.panel-heading {
+	background-image: -webkit-linear-gradient(top, #f5f5f5 0, lighten(@button-accent-color, 20%) 100%);
+    background-image: -o-linear-gradient(top, #f5f5f5 0, lighten(@button-accent-color, 20%) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), to(lighten(@button-accent-color, 20%)));
+    background-image: linear-gradient(to bottom, #f5f5f5 0, lighten(@button-accent-color, 20%) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr=lighten(@button-accent-color, 20%), GradientType=0);
+}
+

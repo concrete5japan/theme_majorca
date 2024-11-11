@@ -1,0 +1,152 @@
+.ccm-block-switch-language {
+
+	.form-control {
+		width: auto;
+	}
+}
+
+.majorca-switch-language {
+	margin: 0;
+
+	.majorca-switch-language-label {
+		margin-bottom: 5px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			width: auto;
+			margin: 0;
+
+			a {
+				display: block;
+				margin: 0;
+				padding: 15px 18px;
+				color: @page-main-color;
+				text-decoration: none;
+				line-height: 1;
+				background: darken(@page-main-border-color, 10%);
+				cursor: pointer;
+				.transition(all 0.3s ease-in-out);
+				&:hover {
+					color: @page-main-color;
+					text-decoration: none;
+					background: @page-main-effect-color;
+				}
+				&.majorca-switch-language-active {
+					color: #fff;
+					background: @page-main-color;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}
+
+.align-center {
+	.majorca-switch-language {
+		text-align: center;
+	}
+}
+
+.align-right {
+	.majorca-switch-language {
+		text-align: right;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+
+	.majorca-switch-language {
+		display: flex;
+			-webkit-box-align: center;
+		align-items: center;
+		margin: 0;
+
+		.majorca-switch-language-label {
+			margin-right: 5px;
+			margin-bottom: 0;
+		}
+
+		ul {
+
+			li {
+				display: inline-block;
+				margin: 0;
+
+				a {
+					padding: 6px 12px;
+				}
+			}
+		}
+	}
+
+	.align-center {
+		.majorca-switch-language {
+			justify-content: center;
+		}
+	}
+
+	.align-right {
+		.majorca-switch-language {
+			justify-content: flex-end;
+		}
+	}
+}
+
+
+.header-dark-color {
+	.ccm-block-switch-language,
+	.majorca-switch-language {
+		color: #eee;
+
+		ul {
+
+			li {
+
+				a {
+					color: @page-main-color;
+					background: @page-main-accent-color;
+					&:hover {
+						color: @page-main-color;
+						background: @page-main-effect-color;
+					}
+					&.majorca-switch-language-active {
+						color: @page-main-color;
+						background: @page-main-base-color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer-container {
+	.ccm-block-switch-language,
+	.majorca-switch-language {
+
+		ul {
+
+			li {
+
+				a {
+					color: @page-main-color;
+					background: @page-main-accent-color;
+					&:hover {
+						color: @page-main-color;
+						background: @page-main-effect-color;
+					}
+					&.majorca-switch-language-active {
+						color: @footer-button-text-active-color;
+						background: @footer-button-background-active-color;
+					}
+				}
+			}
+		}
+	}
+}

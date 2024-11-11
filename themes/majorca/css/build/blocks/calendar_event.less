@@ -1,0 +1,95 @@
+/*----------------------------------------------
+	Calendar Event Styles
+----------------------------------------------*/
+
+.ccm-block-calendar-event-list-wrapper {
+	h2 {
+		margin: 10px 0;
+		padding: 0;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: 700;
+		line-height: 1.2;
+		font-feature-settings: 'palt';
+
+		&:before {
+			margin-right: 5px;
+			color: @body-link-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f0c8';
+			.transition(all 0.3s ease-in-out);
+		}
+	}
+
+	.ccm-block-calendar-event-list-event {
+		margin-bottom: 30px;
+
+		.ccm-block-calendar-event-list-event-date {
+			margin-bottom: 10px;
+
+			span {
+				border-right: solid 1px @page-main-accent-color;
+				border-bottom: solid 1px @page-main-accent-color;
+				border-left: solid 1px @page-main-accent-color;
+				&:first-child {
+					background: @page-main-color;
+					border: solid 1px @page-main-color;
+				}
+			}
+		}
+
+		.ccm-block-calendar-event-list-event-title {
+			font-weight: 700;
+		}
+	}
+}
+
+.ccm-block-calendar-event-wrapper{
+
+	.ccm-block-calendar-event-header {
+		h3 {
+			margin: 10px 0;
+			padding: 0;
+			font-size: 1.2em;
+			font-size: 1.2rem;
+			font-weight: 700;
+			line-height: 1.2;
+			font-feature-settings: 'palt';
+
+			&:before {
+				margin-right: 5px;
+				color: @body-link-color;
+				font-family: 'FontAwesome', sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				content: '\f0c8';
+				.transition(all 0.3s ease-in-out);
+			}
+		}
+	}
+
+	.ccm-block-calendar-event-attributes {
+		display: inline-block;
+		padding: 10px 15px;
+		color: @page-main-color;
+		font-size: 1em;
+		font-size: 1rem;
+		background-color: lighten(@page-main-accent-color, 20%);
+		.border-radius(4px);
+	}
+
+	@media only screen and (min-width: 480px) {
+		.ccm-block-calendar-event-attributes {
+			margin-right: 5px;
+			margin-bottom: 5px;
+			padding: 5px 10px;
+			font-size: .9em;
+			font-size: .9rem;
+			.border-radius(2px);
+		}
+	}
+}

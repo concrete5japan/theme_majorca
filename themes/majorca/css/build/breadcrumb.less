@@ -1,0 +1,255 @@
+.breadcrumb {
+	display: none;
+}
+
+@media (min-width: 768px) {
+		.breadcrumb {
+			display: block;
+			margin-top: 10px;
+			margin-bottom: 0;
+			margin-left: 0;
+			padding: 0 15px;
+			list-style: none;
+
+		li {
+			float: left;
+			margin: 0 10px 0 0;
+			padding: 0;
+			color: @page-main-color;
+			font-size: .9em;
+			font-size: .9rem;
+			&:before {
+				margin-right: 5px;
+				color: @page-main-color;
+				opacity: .5;
+				font-family: 'FontAwesome', sans-serif;
+				font-style: normal;
+				font-weight: 700;
+				font-variant: normal;
+				content: '\f105';
+			}
+			&:first-child:before,
+			.first:before {
+				content: none;
+			}
+
+			a {
+				color: @page-main-accent-color;
+				.transition(all 0.3s ease-in-out);
+				&:hover {
+					color: @page-main-color;
+					text-decoration: none;
+				}
+			}
+			&.active a {
+				color: @page-main-color;
+			}
+		}
+	}
+}
+
+
+
+.ccm-block-topic-list-flat-filter {
+	margin: 0;
+	padding: 8px 0;
+	line-height: 1.4;
+
+	.breadcrumb {
+		display: block;
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+		background: @page-main-base-color;
+
+		li {
+			display: inline-block;
+			float: none;
+			margin: 0 5px 0 0;
+			&:before {
+				margin: 0;
+				padding: 0;
+				content: none;
+			}
+
+			a {
+				display: block;
+				margin: 0 0 5px;
+				padding: 3px 10px;
+				color: @page-main-base-color;
+				font-size: .9em;
+				font-size: .9rem;
+				background-color: @page-main-sub-color;
+				cursor: pointer;
+				.border-radius(2px);
+				.transition(all 0.3s ease-in-out);
+				&:hover,
+				&:focus {
+					color: @page-main-color;
+					font-weight: normal;
+					text-decoration: none;
+					background-color: @page-main-effect-color;
+				}
+				&.ccm-block-topic-list-topic-selected,
+				&:active {
+					color: @page-main-base-color;
+					font-weight: normal;
+					text-decoration: none;
+					background-color: @page-main-color;
+				}
+			}
+		}
+	}
+
+	&.shuffle-links {
+		.breadcrumb {
+			li {
+				display: inline-block;
+				margin: 0 5px 5px 0;
+				padding: 3px 10px;
+				color: @page-main-base-color;
+			    font-size: .9em;
+			    font-size: .9rem;
+				background-color: @page-main-sub-color;
+				cursor: pointer;
+				.border-radius(2px);
+				.transition(all 0.3s ease-in-out);
+
+				&:hover,
+				&:focus {
+					color: @page-main-color;
+					font-weight: normal;
+					text-decoration: none;
+					background-color: @page-main-effect-color;
+				}
+
+				&.ccm-block-topic-list-topic-selected,
+				&.active,
+				&:active {
+					color: @page-main-base-color;
+					font-weight: normal;
+					text-decoration: none;
+					background-color: @page-main-color;
+				}
+			}
+		}
+	}
+}
+
+@media print {
+	.ccm-block-topic-list-flat-filter {
+		&.shuffle-links {
+			.breadcrumb {
+				li {
+					padding: 0;
+
+					&.ccm-block-topic-list-topic-selected,
+					&.active,
+					&:active {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* =========================================================
+    Sort Button Style
+   ========================================================= */
+
+.filters-none {
+	display: none;
+}
+
+.filters-group {
+	float: right;
+	padding: 8px 0;
+
+	.filter-label {
+		float: left;
+	    display: block;
+	    margin-top: 2px;
+	    margin-right: 10px;
+	    color: @page-main-color;
+	    margin-bottom: 0;
+	    line-height: 1.4;
+	}
+
+	.btn-group {
+
+		&:after,
+		&:before {
+		    content: ' ';
+		    display: table;
+		}
+
+		.btn {
+			float: left;
+			margin-bottom: 5px;
+			padding: 2px 15px;
+		    border-radius: 0;
+		    color: @page-main-base-color;
+		    font-size: .9em;
+		    font-size: .9rem;
+		    background-color: @page-main-sub-color;
+		    .border-radius(2px);
+			.transition(all 0.3s ease-in-out);
+			&:first-child {
+		    	border-radius: 2px 0 0 2px;
+		    }
+
+		    input[type=radio] {
+				margin-top: 0;
+			    clip: rect(0,0,0,0);
+			    pointer-events: none;
+			    position: absolute;
+			}
+
+			&:not(:first-child) {
+			    margin-left: 0;
+			    border-left: solid 1px @page-main-base-color;
+			}
+			&:last-child {
+			   .border-radius(2px);
+			}
+
+			&:hover,
+			&:focus {
+				color: @page-main-color;
+				font-weight: normal;
+				text-decoration: none;
+				background-color: @page-main-effect-color;
+			}
+
+			&.active,
+			&:active {
+				color: @page-main-base-color;
+				font-weight: normal;
+				text-decoration: none;
+				background-color: @page-main-color;
+			}
+		}
+	}
+}
+
+@media print {
+	.filters-group {
+		float: right;
+		padding: 8px 0;
+
+		.btn-group {
+
+			.btn {
+				min-width: auto;
+				padding: 0 0 0 5px;
+			    border-radius: 0;
+
+				&.active,
+				&:active {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

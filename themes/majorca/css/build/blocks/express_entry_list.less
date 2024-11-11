@@ -1,0 +1,139 @@
+
+.majorca-express-entry-list-header{
+
+	h2 {
+		margin: 10px 0;
+		padding: 0;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: @font-weight-medium;
+		line-height: @line-height-tight;
+		font-feature-settings: 'palt';
+		&:before {
+			margin-right: 5px;
+			color: @body-link-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f0c8';
+			.transition(all 0.3s ease-in-out);
+		}
+	}
+
+	p {
+		font-size: .9em;
+		font-size: .9rem;
+	}
+}
+
+.majorca-express-entry-list-header-sidebar{
+	margin-bottom: 15px;
+	position: relative;
+	&:after {
+		width: 100%;
+		height:8px;
+		margin: 0;
+		padding: 0;
+		content: '';
+		background: url(@hr-slash-image) repeat 0 0;
+		position: absolute;
+		bottom: -8px;
+		left: 0;
+	}
+
+	h2 {
+		margin: 0;
+		padding: 0;
+		color: @page-main-color;
+		font-family: @page-title-type-font-family;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: @font-weight-medium;
+		line-height: @line-height-tight;
+		&:before {
+			content: none;
+		}
+	}
+
+	p {
+		font-size: .9em;
+		font-size: .9rem;
+	}
+}
+
+.ccm-block-express-entry-list-table {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.4;
+
+	thead {
+
+		tr {
+
+			a {
+				color: @body-type-color;
+				&:hover {
+					color: @body-link-active-color;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	&.sidebar {
+		thead > tr > th,
+		tbody > tr > td {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.ccm-block-express-entry-list-row-a,
+	.ccm-block-express-entry-list-row-b {
+		a {
+			padding-left: 1px;
+			color: @body-link-color;
+			&:hover {
+				color: @body-link-active-color;
+				text-decoration: none;
+			}
+/*
+			&:before {
+				padding-right: 5px;
+				font-family: "FontAwesome", sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				content: "\f138";
+			}
+*/
+		}
+	}
+}
+
+.sidebar-pagination {
+	.ccm-pagination-wrapper {
+		margin-top: 15px;
+		margin-bottom: 50px;
+
+		.pagination > li.prev > a,
+		.pagination > li.prev > span  {
+			padding-right: 0;
+			padding-left: 0;
+			&:before {
+				left: -10px;
+			}
+		}
+
+		.pagination > li.next > a,
+		.pagination > li.next > span  {
+			padding-right: 0;
+			padding-left: 0;
+			&:after {
+				right: -10px;
+			}
+		}
+	}
+}

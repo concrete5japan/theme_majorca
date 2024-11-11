@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+	<set name="Full Page">
+		<style name="Text" variable="body" type="type" />
+		<style name="Link" variable="body-link" type="color" />
+		<style name="Link Hover" variable="body-link-hover" type="color" />
+		<style name="Link Active" variable="body-link-active" type="color" />
+		<style name="Page Main Color" variable="page-main" type="color" />
+		<style name="Page Main Base Color" variable="page-main-base" type="color" />
+		<style name="Page Main Sub Color" variable="page-main-sub" type="color" />
+		<style name="Page Main Accent Color" variable="page-main-accent" type="color" />
+		<style name="Page Main Effect Color" variable="page-main-effect" type="color" />
+		<style name="Page Main Border Color" variable="page-main-border" type="color" />
+		<style name="Page Titles" variable="page-title" type="type" />
+		<style name="Page Titles Border" variable="page-title-border" type="size" />
+		<style name="Page Titles Left Border" variable="page-title-left-border" type="size" />
+	</set>
+	<set name="Header">
+        <style name="Background" variable="header-background" type="color" />
+        <style name="Site Title" variable="header-site-title" type="type" />
+        <style name="Search Field Icon Color" variable="header-search-input-icon" type="color" />
+        <style name="Search Field Border Color" variable="header-search-input-border" type="color" />
+        <style name="Search Field Background Color" variable="header-search-input-background" type="color" />
+	</set>
+    <set name="Headings">
+        <style name="Heading 1" variable="h1" type="type" />
+        <style name="Heading 2" variable="h2" type="type" />
+        <style name="Heading 3" variable="h3" type="type" />
+        <style name="Heading 4" variable="h4" type="type" />
+        <style name="Heading 5" variable="h5" type="type" />
+        <style name="Heading 6" variable="h6" type="type" />
+    </set>
+	<set name="Global Navigation">
+		<style name="Global Navi Text Link Color" variable="global-navigation-text-link" type="color" />
+		<style name="Global Navi Text Link Hover" variable="global-navigation-text-link-hover" type="color" />
+		<style name="Global Navi Text Link Active" variable="global-navigation-text-link-active" type="color" />
+		<style name="Global Navi Background Color" variable="global-navigation-background" type="color" />
+		<style name="Global Navi Border Color" variable="global-navigation-border" type="color" />
+		<style name="Global Navi Button Color" variable="global-navigation-button" type="color" />
+		<style name="Mobile Global Navi Child Background Color" variable="mobile-global-navigation-child-background" type="color" />
+	</set>
+	<set name="Button">
+        <style name="Button Text Color" variable="button-text" type="color" />
+        <style name="Button Text Hover" variable="button-text-hover" type="color" />
+        <style name="Button Default Color" variable="button-default" type="color" />
+        <style name="Button Primary Color" variable="button-primary" type="color" />
+        <style name="Button Success Color" variable="button-success" type="color" />
+		<style name="Button Info Color" variable="button-info" type="color" />
+		<style name="Button Warning Color" variable="button-warning" type="color" />
+		<style name="Button Danger Color" variable="button-danger" type="color" />
+        <style name="Button Disabled Color" variable="button-disabled" type="color" />
+        <style name="Button Sub Color" variable="button-sub" type="color" />
+        <style name="Button Accent Color" variable="button-accent" type="color" />
+        <style name="Button Effect Color" variable="button-effect" type="color" />
+        <style name="Button Large Text Color" variable="button-large-text" type="color" />
+        <style name="Button Large Background Color" variable="button-large-background" type="color" />
+	</set>
+	<set name="Footer">
+		<style name="Footer Text Color" variable="footer-text" type="color" />
+		<style name="Footer Text Link Color" variable="footer-text-link" type="color" />
+		<style name="Footer Text Link Hover" variable="footer-text-link-hover" type="color" />
+		<style name="Footer Text Link Active" variable="footer-text-link-active" type="color" />
+		<style name="Footer Background" variable="footer-background" type="color" />
+		<style name="Footer Site Title" variable="footer-site-title" type="type" />
+		<style name="Footer Social Icons" variable="footer-social-icon" type="color" />
+        <style name="Footer Social Icons Hover" variable="footer-social-icon-hover" type="color" />
+        <style name="Footer Social Icons Active" variable="footer-social-icon-active" type="color" />
+        <style name="Footer Button Text Active" variable="footer-button-text-active" type="color" />
+        <style name="Footer Button Background Active" variable="footer-button-background-active" type="color" />
+        <style name="Footer Button Border" variable="footer-button-border" type="color" />
+        <style name="Footer Bottom Background" variable="footer-bottom-background" type="color" />
+	</set>
+	<set name="Blockquote">
+        <style name="Text" variable="blockquote" type="type" />
+        <style name="Left Padding" variable="blockquote-left-padding" type="size" />
+        <style name="Border Color" variable="blockquote-border" type="color" />
+    </set>
+    <set name="Horizontal Rule">
+	    <style name="HR Base Color" variable="hr-base" type="color" />
+        <style name="Square Icon Color" variable="square-icon" type="color" />
+        <style name="Circle Icon Color" variable="circle-icon" type="color" />
+        <style name="Diamond Icon Color" variable="diamond-icon" type="color" />
+        <style name="Heart Icon Color" variable="heart-icon" type="color" />
+        <style name="Star Icon Color" variable="star-icon" type="color" />
+        <style name="Scissors Icon Color" variable="scissors-icon" type="color" />
+        <style name="HR Slash Image" variable="hr-slash" type="image" />
+        <style name="HR Dotted Image" variable="hr-dotted" type="image" />
+    </set>
+    <set name="Splash">
+        <style name="Title Text" variable="splash-title" type="type" />
+        <style name="Content Text" variable="splash-content" type="type" />
+        <style name="Button Background Color" variable="splash-button-background" type="color" />
+        <style name="Button Border Color" variable="splash-button-border" type="color" />
+        <style name="Button Text Color" variable="splash-button-text" type="color" />
+        <style name="Mobile Title Text" variable="mobile-splash-title" type="type" />
+        <style name="Mobile Content Text" variable="mobile-splash-content" type="type" />
+    </set>
+    <set name="Image Slider">
+        <style name="Title" variable="image-slider-title" type="type" />
+        <style name="Paragraph" variable="image-slider-paragraph" type="type" />
+        <style name="Navigation Color" variable="image-slider-navigation" type="color" />
+        <style name="Navigation Background Color" variable="image-slider-navigation-background" type="color" />
+        <style name="Active Navigation Color" variable="image-slider-navigation-active" type="color" />
+        <style name="Dot Navigation Color" variable="image-slider-navigation-dot" type="color" />
+    </set>
+    <set name="Miscellaneous">
+        <style name="Content Divider Color" variable="content-section-divider" type="color" />
+        <style name="Accent Background Color" variable="accent-background" type="color" />
+        <style name="Accent Background Dark Color" variable="accent-background-dark" type="color" />
+        <style name="Accent Header Color" variable="accent-header" type="color" />
+        <style name="Title Thin" variable="title-thin" type="type" />
+        <style name="Image Caption" variable="image-caption" type="type" />
+        <style name="Title Caps" variable="title-caps" type="type" />
+        <style name="Home Feature Title" variable="home-feature-title" type="color" />
+        <style name="Home Feature Icon" variable="home-feature-icon" type="color" />
+        <style name="Home Feature Icon Background" variable="home-feature-icon-background" type="color" />
+    </set>
+</styles>

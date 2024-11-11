@@ -1,0 +1,123 @@
+Credits:
+
+Modernizr by Faruk Ates, Paul Irish, Alex Sexton, Ryan Seddon, Patrick Kettner, Stu Cox, Richard Herrera
+http://modernizr.com/download
+License: MIT & BSD
+
+--------------------
+
+jQuery Easing by George McGinley Smith
+http://gsgd.co.uk/sandbox/jquery/easing/
+License: BSD License
+
+--------------------
+
+Pure Drawer by Thomas Wilthil
+https://github.com/mac81/pure-drawer/tree/master/src
+License: MIT license
+
+--------------------
+
+slick by Ken Wheeler
+http://kenwheeler.github.io/slick/
+License: MIT license <https://github.com/kenwheeler/slick/blob/master/LICENSE>
+
+--------------------
+
+Simple Lightbox by André Rinas
+http://andreknieriem.de/simple-lightbox/
+License: MIT license
+
+--------------------
+
+Shuffle.js by Glen Cheney
+https://vestride.github.io/Shuffle/
+License: MIT license
+
+--------------------
+
+FitVids by Thierry Koblentz
+http://alistapart.com/article/creating-intrinsic-ratios-for-video
+License: WTFPL license
+
+--------------------
+
+Rippler by blivesta
+http://git.blivesta.com/rippler/
+License: MIT license
+
+--------------------
+
+Bootstrap.js by Twitter, Inc.
+http://getbootstrap.com/javascript/
+License: MIT license
+
+
+_/_/_/_/_/_/_/_/_/_/
+
+
+Photos and Movie of the sample content
+
+Free stock photos · Pexels
+https://www.pexels.com/
+
+Photo License
+It's hard to understand complex licenses that is why all photos on Pexels are licensed under the Creative Commons Zero (CC0) license. This means the pictures are completely free to be used for any legal purpose.
+
+The pictures are free for personal and even for commercial use.
+You can modify, copy and distribute the photos.
+All without asking for permission or setting a link to the source. So, attribution is not required.
+The only restriction is that identifiable people may not appear in a bad light or in a way that they may find offensive, unless they give their consent. You should also make sure the depicted content (people, logos, private property, etc.) is suitable for your application and doesn't infringe any rights.
+
+The CC0 license was released by the non-profit organization Creative Commons (CC). Get more information about Creative Commons images and the license on the official license page (https://creativecommons.org/publicdomain/zero/1.0/).
+
+https://www.pexels.com/photo-license/
+
+
+ · https://www.pexels.com/photo/abstract-arrangement-art-background-457713/
+ · https://www.pexels.com/photo/action-air-aircraft-aviation-442587/
+ · https://www.pexels.com/photo/adult-bag-beautiful-blur-443088/
+ · https://www.pexels.com/photo/adventure-cold-conifers-evening-572897/
+ · https://www.pexels.com/photo/amusement-park-carnival-ferris-wheel-high-446343/
+ · https://www.pexels.com/photo/architecture-automobile-automotive-bumper-590481/
+ · https://www.pexels.com/photo/architecture-bridge-brooklyn-bridge-buildings-421927/
+ · https://www.pexels.com/photo/asphalt-athletics-blur-close-up-401896/
+ · https://www.pexels.com/photo/autumn-backlit-dawn-environment-589810/
+ · https://www.pexels.com/photo/backlit-beach-beach-chairs-calm-388459/
+ · https://www.pexels.com/photo/beach-clouds-dawn-dusk-391522/
+ · https://www.pexels.com/photo/beach-hat-blur-close-up-depth-of-field-390625/
+ · https://www.pexels.com/photo/blur-bowl-candies-close-up-557665/
+ · https://www.pexels.com/photo/blur-clips-clothespins-day-562976/
+ · https://www.pexels.com/photo/blur-close-up-contemporary-decoration-562984/
+ · https://www.pexels.com/photo/blurred-background-bus-combi-miniature-385998/
+ · https://www.pexels.com/photo/bright-building-business-cars-375888/
+ · https://www.pexels.com/photo/red-vehicle-motor-scooter-vespa-56889/
+ · https://www.pexels.com/photo/panoramic-view-of-city-lit-up-at-night-311012/
+ · https://www.pexels.com/photo/adult-backpack-blur-business-298018/
+
+
+
+Free stock videos – Pexels Videos
+https://videos.pexels.com/
+
+Video License
+Pexels Videos offers completely free videos. All videos are licensed under the Creative Commons Zero (CC0) license. This means you can edit or change the videos and use them free for personal and even for commercial projects. All without asking for permission or setting a link to the source. So that attribution is not required. With our swiftly growing database of videos, you are guaranteed to find the perfect footage for your website header, product promotion, or anything else. Every video we have available is free for any purpose - including commercial. This guarantees that you will be saving the hundreds of dollars better spent promoting your brand.
+
+The CC0 license was released by the non-profit organization Creative Commons (CC). You can find more information about the license on the official license page (https://creativecommons.org/publicdomain/zero/1.0/).
+
+https://videos.pexels.com/video-license
+
+
+ · https://videos.pexels.com/videos/video-of-bokeh-lights-854569
+
+
+Video file is not included.
+It is used at the Live Demo site.
+
+
+
+Special thanks :
+
+Thank you @acliss19xx for helped me to coding Custom Blocks.
+https://www.concrete5.org/profile/-/view/70366/
+

@@ -1,0 +1,54 @@
+
+.ccm-express-form,
+.ccm-dashboard-express-entry {
+
+	h3 {
+		margin: 10px 0;
+		padding: 0;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: @font-weight-medium;
+		line-height: @line-height-tight;
+		font-feature-settings: 'palt';
+		&:before {
+			margin-right: 5px;
+			color: @body-link-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f0c8';
+			.transition(all 0.3s ease-in-out);
+		}
+	}
+
+	fieldset,
+	.ccm-express-form-field-set {
+		a {
+			padding-left: 1px;
+			color: @body-link-color;
+			&:hover {
+				color: @body-link-active-color;
+				text-decoration: none;
+			}
+			&:before {
+				padding-right: 5px;
+				font-family: "FontAwesome", sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				content: "\f138";
+			}
+		}
+
+		legend {
+			.make-heading(@h3-type-font-family, @h3-type-font-size, @h3-type-font-weight, @h3-type-color);
+			border: none;
+		}
+
+		.control-label {
+			.make-heading(@h5-type-font-family, @h5-type-font-size, @h5-type-font-weight, @h5-type-color);
+		}
+	}
+
+}

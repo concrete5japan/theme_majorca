@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+  xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+
+  <table name="btMajorcaTestimonial_carousel">
+    <field name="bID" type="integer">
+      <unsigned/>
+      <key/>
+    </field>
+    <field name="navigationType" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+    <field name="timeout" type="integer">
+      <unsigned/>
+    </field>
+    <field name="speed" type="integer">
+      <unsigned/>
+    </field>
+    <field name="noAnimate" type="integer">
+      <unsigned/>
+    </field>
+    <field name="pause" type="integer">
+      <unsigned/>
+    </field>
+    <field name="maxWidth" type="integer">
+      <unsigned/>
+    </field>
+    <field name="infinite" type="integer">
+      <unsigned/>
+      <default value="1"/>
+    </field>
+    <field name="slidesToShow" type="integer">
+      <unsigned/>
+    </field>
+  </table>
+
+  <table name="btMajorcaTestimonial_carouselEntries">
+    <field name="id" type="integer">
+      <unsigned/>
+      <autoincrement/>
+      <key/>
+    </field>
+    <field name="tmeId" type="integer">
+      <unsigned/>
+    </field>
+    <field name="bID" type="integer"></field>
+    <field name="fID" type="integer">
+      <unsigned/>
+      <default value="0"/>
+    </field>
+    <field name="name" type="string" size="255"/>
+    <field name="position" type="string" size="255"/>
+    <field name="company" type="string" size="255"/>
+    <field name="companyURL" type="string" size="255"/>
+    <field name="paragraph" type="text" size="65535"/>
+    <field name="socialLink" type="text" size="65535"/>
+    <field name="sortOrder" type="integer"/>
+  </table>
+
+</schema>

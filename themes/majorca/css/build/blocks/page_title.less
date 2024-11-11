@@ -1,0 +1,425 @@
+div.ccm-block-page-title-byline {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid @content-section-divider-color;
+
+
+	h1.page-title {
+		margin-bottom: 0;
+		padding: 0 0 15px;
+		.make-heading(@h1-type-font-family, @h1-type-font-size, @h1-type-font-weight, @h1-type-color);
+		font-feature-settings: 'palt';
+		line-height: @line-height-tight;
+	}
+
+	span.page-date {
+		margin: 0;
+		color: @body-type-color;
+		font-weight: 400;
+		line-height: 1.4;
+
+		&:before {
+			margin-right: 5px;
+			color: @body-type-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f073';
+		}
+	}
+
+	span.page-author {
+		margin: 0;
+		color: @body-type-color;
+		font-weight: 400;
+		line-height: 1.4;
+
+		&:before {
+			margin-right: 5px;
+			color: @body-type-color;
+			font-family: 'FontAwesome', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			content: '\f2bd';
+		}
+	}
+
+	span.page-date,
+	span.page-author {
+		margin-right: 15px;
+	}
+}
+
+
+
+.page-title {
+	margin-bottom: @line-height-computed;
+	font-family: @page-title-type-font-family;
+	font-feature-settings: 'palt';
+
+	&.border-left {
+		padding-left: 15px;
+		border-left: @page-title-left-border-size solid @page-main-color;
+	}
+
+	&.border-gradation {
+		.clearfix();
+		text-align: center;
+		position: relative;
+		&:before {
+			display: block;
+			width: 100%;
+			height: 1px;
+			padding: 0;
+			text-align: center;
+			overflow: visible;
+			background: @page-main-base-color;
+			background-image: -webkit-linear-gradient(left, transparent, @page-main-accent-color, transparent);
+			background-image: -moz-linear-gradient(left, transparent, @page-main-accent-color, transparent);
+			background-image: -ms-linear-gradient(left, transparent, @page-main-accent-color, transparent);
+			background-image: -o-linear-gradient(left, transparent, @page-main-accent-color, transparent);
+			position: absolute;
+			top: 48%;
+		}
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 15px;
+			padding-left: 15px;
+			background: @page-main-base-color;
+		}
+
+	}
+
+	&.background-color {
+		padding: 30px 0;
+		color: @page-main-color;
+		background: @page-main-border-color;
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 0;
+			padding-left: 30px;
+			color: @page-main-color;
+		}
+	}
+
+	&.border-bottom {
+		border-bottom: @page-title-border-size solid @page-main-accent-color;
+	}
+
+	&.border-middle {
+		position: relative;
+		&:before {
+			width: 100%;
+			border-top: @page-title-border-size solid @page-main-accent-color;
+			position: absolute;
+			top: 48%;
+			left: 0;
+			content: '';
+		}
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 15px;
+			padding-left: 0;
+			background-color: @page-main-base-color;
+		}
+
+	}
+
+	&.marker {
+		background: linear-gradient(transparent 65%, lighten(@page-main-effect-color, 15%) 65%);
+	}
+
+	&.border-dual-color {
+		border-bottom: solid 3px lighten(@page-main-accent-color, 20%);
+		position: relative;
+		&:after {
+			position: absolute;
+			content: '';
+			display: block;
+			border-bottom: solid 3px @page-main-effect-color;
+			bottom: -3px;
+			width: 20%;
+		}
+	}
+
+	&.border-slash {
+		padding-bottom: 10px;
+		background: url(@hr-slash-image) repeat-x bottom;
+	}
+
+	&.border-slash-middle {
+		background: url(@hr-slash-image) repeat-x center;
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 15px;
+			padding-left: 0;
+			background-color: @page-main-base-color;
+		}
+	}
+
+	&.border-dotted {
+		padding-bottom: 10px;
+		background: url(@hr-dotted-image) repeat-x bottom;
+	}
+
+	&.border-dotted-middle {
+		background: url(@hr-dotted-image) repeat-x center;
+
+			span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 15px;
+			padding-left: 0;
+			background-color: @page-main-base-color;
+		}
+	}
+
+	&.title-border-bottom {
+
+		span {
+			display: inline-block;
+			position: relative;
+
+			&:after{
+				margin: auto;
+				border-bottom: @page-title-border-size solid @page-main-accent-color;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: -5px;
+				content: '';
+			}
+		}
+	}
+
+	&.dog-ear {
+		position: relative;
+		padding: 30px 0;
+		color: @page-main-color;
+		background: @page-main-border-color;
+		&:after{
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 0;
+			border-width: 0 0 20px 20px;
+			border-style: solid;
+			border-color: #fff #fff darken(@page-main-border-color, 20%);
+			box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+		}
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 0;
+			padding-left: 30px;
+			color: @page-main-color;
+		}
+	}
+
+	&.ribbon {
+		position: relative;
+		padding: 30px 0;
+		color: @page-main-color;
+		background: @page-main-border-color;
+		&:before {
+			position: absolute;
+			content: '';
+			top: 100%;
+			left: 0;
+			border: none;
+			border-bottom: solid 20px transparent;
+			border-right: solid 25px darken(@page-main-border-color, 20%);
+		}
+
+		span {
+			display: inline-block;
+			position: relative;
+			margin: 0;
+			padding-right: 0;
+			padding-left: 30px;
+			color: @page-main-color;
+		}
+	}
+
+}
+
+h1.pagetitle,
+.h1.pagetitle {
+	.make-heading(@h1-type-font-family, @h1-type-font-size, @h1-type-font-weight, @h1-type-color);
+	line-height: @line-height-close;
+}
+
+h2.pagetitle,
+.h2.pagetitle {
+	.make-heading(@h2-type-font-family, @h2-type-font-size, @h2-type-font-weight, @h2-type-color);
+	line-height: @line-height-close;
+}
+
+h3.pagetitle,
+.h3.pagetitle {
+	.make-heading(@h3-type-font-family, @h3-type-font-size, @h3-type-font-weight, @h3-type-color);
+	line-height: @line-height-tight;
+}
+
+h4.pagetitle,
+.h4.pagetitle {
+	.make-heading(@h4-type-font-family, @h4-type-font-size, @h4-type-font-weight, @h4-type-color);
+	line-height: @line-height-tight;
+}
+
+h5.pagetitle,
+.h5.pagetitle {
+	.make-heading(@h5-type-font-family, @h5-type-font-size, @h5-type-font-weight, @h5-type-color);
+	line-height: @line-height-tight;
+}
+
+h6.pagetitle,
+.h6.pagetitle {
+	.make-heading(@h6-type-font-family, @h6-type-font-size, @h6-type-font-weight, @h6-type-color);
+	line-height: @line-height-tight;
+}
+
+.accent {
+	.border-left {
+		padding-left: 15px;
+		border-left: @page-title-left-border-size solid @page-main-effect-color;
+	}
+
+	.background-color {
+		background:  @page-main-effect-color;
+	}
+
+	.border-bottom {
+		border-bottom: @page-title-border-size solid @page-main-effect-color;
+	}
+
+	.border-middle {
+		&:before {
+			border-top: @page-title-border-size solid @page-main-effect-color;
+		}
+	}
+
+	.title-border-bottom {
+		span {
+			&:after{
+				border-bottom: @page-title-border-size solid @page-main-effect-color;
+			}
+		}
+	}
+
+	.border-dual-color {
+		border-bottom: solid 3px lighten(@page-main-effect-color, 25%);
+	}
+
+	.dog-ear {
+		background: @page-main-effect-color;
+		&:after{
+			border-color: #fff #fff darken(@page-main-effect-color, 15%);
+		}
+	}
+
+	.ribbon {
+		background: @page-main-effect-color;
+		&:before {
+			border-right: solid 25px darken(@page-main-effect-color, 20%);
+		}
+	}
+}
+
+.title-center {
+	text-align: center;
+
+	.background-color {
+		span {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.border-middle,
+	.border-slash-middle,
+	.border-dotted-middle {
+
+		span {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+	}
+}
+
+.title-right {
+	text-align: right;
+
+	.background-color {
+		span {
+			padding-right: 30px;
+			padding-left: 0;
+		}
+	}
+
+	.border-middle,
+	.border-slash-middle,
+	.border-dotted-middle {
+
+		span {
+			padding-right: 0;
+			padding-left: 15px;
+		}
+
+	}
+}
+
+
+
+.block-sidebar-wrapped {
+	.page-title {
+		margin-bottom: 15px;
+		padding: 0;
+		color: @page-main-color;
+		font-family: @page-title-type-font-family;
+		font-size: 1.2em;
+		font-size: 1.2rem;
+		font-weight: @font-weight-regular;
+		line-height: @line-height-tight;
+		position: relative;
+		&:after {
+			width: 100%;
+			height:8px;
+			margin: 0;
+			padding: 0;
+			content: '';
+			background: url(@hr-slash-image) repeat 0 0;
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+		}
+	}
+}
+
+.area-content-dark {
+	.page-title {
+
+		&.border-left {
+			border-left: @page-title-left-border-size solid #fff;
+		}
+	}
+}

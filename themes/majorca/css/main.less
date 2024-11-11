@@ -1,0 +1,344 @@
+/*----------------------------------------------
+
+	Theme Name:
+	Author: Shin'ichi Nakane
+	Description: Main Style Sheet 02-26-2018 (mm-dd-yyyy)
+	Version: 1.0
+
+----------------------------------------------*/
+
+@import 'presets/defaults.less';
+
+@import 'build/common.less';
+@import 'build/content.less';
+@import 'build/global_nav.less';
+@import 'build/simplelightbox.less';
+@import 'build/blocks/image.less';
+
+div.ccm-page {
+	@import 'build/header.less';
+	@import 'build/footer.less';
+	@import 'build/pagination.less';
+	@import 'build/breadcrumb.less';
+	@import 'build/search.less';
+	@import 'build/slick.less';
+	@import 'build/rippler.less';
+	@import 'build/blocks/social_links.less';
+	@import 'build/blocks/share_this_page.less';
+	@import 'build/blocks/feature.less';
+	@import 'build/blocks/page_list.less';
+	@import 'build/blocks/page_title.less';
+	@import 'build/blocks/image_slider.less';
+	@import 'build/blocks/testimonial.less';
+	@import 'build/blocks/topic_list.less';
+	@import 'build/blocks/next_previous.less';
+	@import 'build/blocks/tags.less';
+	@import 'build/blocks/date_navigation.less';
+	@import 'build/blocks/form.less';
+	@import 'build/blocks/faq.less';
+	@import 'build/blocks/file.less';
+	@import 'build/blocks/horizontal_rule.less';
+	@import 'build/blocks/autonav.less';
+	@import 'build/blocks/page_attribute_display.less';
+	@import 'build/blocks/google_map.less';
+	@import 'build/blocks/switch_language.less';
+	@import "build/blocks/express_entry_detail.less";
+	@import "build/blocks/express_entry_list.less";
+	@import "build/blocks/calendar_event";
+
+// 	font: 16px/26px 'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+	position: relative;
+}
+
+// 	font-family: 'Open Sans', sans-serif;
+// 	font-family: 'Abril Fatface', cursive;
+// 	font-family: 'Limelight', cursive;
+// 	font-family: 'Lobster', cursive;
+// 	font-family: 'Playball', cursive;
+// 	font-family: 'Poiret One', cursive;
+// 	font-family: 'Racing Sans One', cursive;
+// 	font-family: 'Caveat', cursive;
+// 	font-family: 'Montserrat', sans-serif;
+// 	font-family: 'Parisienne', cursive;
+// 	font-family: 'Playfair Display', serif;
+// 	font-family: 'Source Sans Pro', sans-serif;
+
+
+@font-family-base: 'Open Sans', Helvetica, 'Helvetica Neue', Arial, Roboto, 'Droid Sans', 'Noto Sans Japanese', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+
+@font-size-base: 1em;
+@font-size-large:         (@font-size-base * 1.25); // ~18px
+@font-size-small:         (@font-size-base * 0.85); // ~12px
+
+@font-size-h1:            (@font-size-base * 2.8); // ~44.8px
+@font-size-h2:            (@font-size-base * 2.2); // ~35.2px
+@font-size-h3:            (@font-size-base * 1.6); // ~25.6px
+@font-size-h4:            (@font-size-base * 1.25); // ~20px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            (@font-size-base * 0.85); // ~13.6px
+
+@font-size-h1-sp:            (@font-size-base * 2); // ~32px
+@font-size-h2-sp:            (@font-size-base * 1.7); // ~27.2px
+@font-size-h3-sp:            (@font-size-base * 1.4); // ~22.4px
+@font-size-h4-sp:            (@font-size-base * 1.2); // ~19.2px
+@font-size-h5-sp:            @font-size-base;
+@font-size-h6-sp:            (@font-size-base * 0.85); // ~14px
+
+@font-weight-extra-light: 200;
+@font-weight-light:       300;
+@font-weight-regular:     400;
+@font-weight-medium:      500;
+@font-weight-semi-bold:   600;
+@font-weight-bold:        700;
+@font-weight-extra-bold:  800;
+@font-weight-black:       900;
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-tight:       1.2; // 19.2/16
+@line-height-close:       1.4; // 22.4/16
+@line-height-base:        1.8; // 28.8/16
+//** Computed 'line-height' (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    ((@font-size-base * @line-height-base) / 2); // ~20px
+
+.ccm-toolbar-add {
+// 	display: none;
+}
+
+.outline {
+
+	div.ccm-page #main-content {
+// 		padding-bottom: 0;
+	}
+}
+
+.ccm-panel-detail {
+	display: block!important;
+}
+
+.clone-nav {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.clone-nav {
+		.transition(all .3s ease);
+		transform: translateY(-100%);
+	}
+
+	.show-nav {
+		width: 100%;
+		transform: translateY(0);
+		opacity: 0.9;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 6;
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+		&.clone-nav {
+			display: block;
+		}
+	}
+
+	//.login,
+	.toolbar {
+		.show-nav {
+			transform: translateY(47px);
+		}
+	}
+}
+
+.js {
+	.loader-container {
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		background-color:#fff;
+		z-index: 999;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+		position: fixed;
+	}
+
+	.loading {
+		width: 50px;
+	}
+}
+
+.no-js {
+	.loader-container {
+		display: none;
+	}
+}
+
+.add-account-menu {
+
+	div#ccm-account-menu {
+		z-index: 15;
+	}
+}
+
+/* Micro ClearFix Mixin */
+.clearfix() {
+	zoom:1;
+	&:before, &:after {
+		content:'';
+		display:table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+// Backface visibility
+// Prevent browsers from flickering when using CSS 3D transforms.
+// Default value is `visible`, but can be changed to `hidden`
+.backface-visibility(@visibility) {
+		-webkit-backface-visibility: @visibility;
+		-moz-backface-visibility: @visibility;
+	backface-visibility: @visibility;
+}
+
+// Drop shadows
+//
+// Note: Deprecated `.box-shadow()` as of v3.1.0 since all of Bootstrap's
+// supported browsers that have box shadow capabilities now support it.
+.box-shadow(@shadow) {
+		-webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+	box-shadow: @shadow;
+}
+
+// Box sizing
+.box-sizing(@boxmodel) {
+		-webkit-box-sizing: @boxmodel;
+		-moz-box-sizing: @boxmodel;
+	box-sizing: @boxmodel;
+}
+
+// Single side border-radius
+.border-radius(@radius) {
+		-moz-border-radius: @radius;
+		-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+.border-top-radius(@radius) {
+	border-top-right-radius: @radius;
+	border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+	border-bottom-right-radius: @radius;
+	border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+	border-bottom-right-radius: @radius;
+	border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+	border-bottom-left-radius: @radius;
+	border-top-left-radius: @radius;
+}
+
+// Transitions
+.transition(@transition) {
+		-webkit-transition: @transition;
+		-o-transition: @transition;
+	transition: @transition;
+}
+.transition-property(@transition-property) {
+		-webkit-transition-property: @transition-property;
+	transition-property: @transition-property;
+}
+.transition-delay(@transition-delay) {
+		-webkit-transition-delay: @transition-delay;
+	transition-delay: @transition-delay;
+}
+.transition-duration(@transition-duration) {
+		-webkit-transition-duration: @transition-duration;
+	transition-duration: @transition-duration;
+}
+.transition-timing-function(@timing-function) {
+		-webkit-transition-timing-function: @timing-function;
+	transition-timing-function: @timing-function;
+}
+.transition-transform(@transition) {
+		-webkit-transition: -webkit-transform @transition;
+		-moz-transition: -moz-transform @transition;
+		-o-transition: -o-transform @transition;
+	transition: transform @transition;
+}
+
+// Transformations
+.transform(@transform) {
+		-webkit-transform: @transform;
+		-moz-transform: @transform;
+		-o-transform: @transform;
+	transform: @transform;
+}
+.scale(@ratio) {
+  -webkit-transform: scale(@ratio);
+      -ms-transform: scale(@ratio); // IE9 only
+       -o-transform: scale(@ratio);
+          transform: scale(@ratio);
+}
+.scale(@ratioX; @ratioY) {
+  -webkit-transform: scale(@ratioX, @ratioY);
+      -ms-transform: scale(@ratioX, @ratioY); // IE9 only
+       -o-transform: scale(@ratioX, @ratioY);
+          transform: scale(@ratioX, @ratioY);
+}
+.scaleX(@ratio) {
+  -webkit-transform: scaleX(@ratio);
+      -ms-transform: scaleX(@ratio); // IE9 only
+       -o-transform: scaleX(@ratio);
+          transform: scaleX(@ratio);
+}
+.scaleY(@ratio) {
+  -webkit-transform: scaleY(@ratio);
+      -ms-transform: scaleY(@ratio); // IE9 only
+       -o-transform: scaleY(@ratio);
+          transform: scaleY(@ratio);
+}
+.translate(@x; @y) {
+  -webkit-transform: translate(@x, @y);
+      -ms-transform: translate(@x, @y); // IE9 only
+       -o-transform: translate(@x, @y);
+          transform: translate(@x, @y);
+}
+.rotate(@degrees) {
+  -webkit-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees); // IE9 only
+       -o-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+.rotateX(@degrees) {
+  -webkit-transform: rotateX(@degrees);
+      -ms-transform: rotateX(@degrees); // IE9 only
+       -o-transform: rotateX(@degrees);
+          transform: rotateX(@degrees);
+}
+.rotateY(@degrees) {
+  -webkit-transform: rotateY(@degrees);
+      -ms-transform: rotateY(@degrees); // IE9 only
+       -o-transform: rotateY(@degrees);
+          transform: rotateY(@degrees);
+}
+
+// User select
+// For selecting text on the page
+.user-select(@select) {
+  -webkit-user-select: @select;
+     -moz-user-select: @select;
+      -ms-user-select: @select; // IE10+
+          user-select: @select;
+}
+
+.make-heading(@family, @size, @weight, @color, @transform: none) {
+  font-family: @family;
+  font-size: @size;
+  font-weight: @weight;
+  color: @color;
+  line-height: @line-height-base;
+  text-transform: @transform;
+}

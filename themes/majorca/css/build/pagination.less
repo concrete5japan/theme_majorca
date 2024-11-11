@@ -1,0 +1,188 @@
+.ccm-pagination-wrapper {
+	margin: 50px 0 0;
+	text-align: center;
+
+	.pagination {
+		margin: 0 auto;
+
+		> li {
+			display: inline-block;
+			margin: 0;
+			color: #fff;
+			font-size: .9em;
+			font-size: .9rem;
+	    	&.active {
+				span {
+					padding: 6px 10px;
+					color: @button-text-hover-color;
+					background: @button-primary-color;
+					border: 1px solid @button-primary-color;
+					&:hover {
+
+					}
+				}
+			}
+			&.next {
+				font-size: .9em;
+				font-size: .9rem;
+				&.disabled {
+					a,
+					span {
+						color: @button-sub-color;
+						background-color: @button-disabled-color;
+						border: 1px solid @button-accent-color;
+						&:hover,
+						&:focus {
+							color: @button-sub-color;
+							background-color: @button-disabled-color;
+							border: 1px solid @button-accent-color;
+						}
+					}
+				}
+
+				a,
+				span {
+					padding: 6px 14px;
+					color: @button-text-hover-color;
+					background-color: lighten(@button-sub-color, 10%);
+					border: 1px solid lighten(@button-sub-color, 10%);
+					&:hover,
+					&:focus {
+						color: @button-text-color;
+						background-color: @button-effect-color;
+						border: 1px solid @button-effect-color;
+					}
+					&:focus {
+						outline-offset: -3px;
+					}
+				}
+
+			}
+			&.prev {
+				font-size: .9em;
+				font-size: .9rem;
+				&.disabled {
+					a,
+					span {
+						color: @button-sub-color;
+						background-color: @button-disabled-color;
+						border: 1px solid @button-accent-color;
+						&:hover,
+						&:focus {
+							color: @button-sub-color;
+							background-color: @button-disabled-color;
+							border: 1px solid @button-accent-color;
+						}
+					}
+				}
+
+				a,
+				span {
+					padding: 6px 14px;
+					color: @button-text-hover-color;
+					background-color: lighten(@button-sub-color, 10%);
+					border: 1px solid lighten(@button-sub-color, 10%);
+					&:hover,
+					&:focus {
+						color: @button-text-color;
+						background-color: @button-effect-color;
+						border: 1px solid @button-effect-color;
+					}
+					&:focus {
+						outline-offset: -3px;
+					}
+				}
+			}
+			> a {
+				margin: 0 5px;
+				padding: 6px 10px;
+				color: @button-text-hover-color;
+				background-color: lighten(@button-sub-color, 10%);
+				border: 1px solid lighten(@button-sub-color, 10%);
+				.border-radius(0);
+				&:hover,
+				&:focus {
+					color: @button-text-color;
+					background-color: @button-effect-color;
+					border: 1px solid @button-effect-color;
+				}
+				&:focus {
+					outline-offset: -3px;
+				}
+			}
+			> span {
+				margin: 0 5px;
+				color: @button-default-color;
+				background-color: lighten(@button-accent-color, 10%);
+				border: 1px solid lighten(@button-accent-color, 10%);
+				.border-radius(0);
+			}
+		}
+	}
+}
+
+.majorca-pagination {
+	.pagination {
+
+		> li {
+
+			&.next {
+
+				&.disabled {
+					a,
+					span {
+						&:after {
+							padding-left: 5px;
+							font-family: 'FontAwesome', sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							content: '\f105';
+						}
+					}
+				}
+
+				a,
+				span {
+					&:after {
+						padding-left: 5px;
+						font-family: 'FontAwesome', sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-variant: normal;
+						content: '\f105';
+					}
+				}
+
+			}
+			&.prev {
+
+				&.disabled {
+					a,
+					span {
+						&:before {
+							padding-right: 5px;
+							font-family: 'FontAwesome', sans-serif;
+							font-style: normal;
+							font-weight: normal;
+							font-variant: normal;
+							content: '\f104';
+						}
+					}
+				}
+
+				a,
+				span {
+					&:before {
+						padding-right: 5px;
+						font-family: 'FontAwesome', sans-serif;
+						font-style: normal;
+						font-weight: normal;
+						font-variant: normal;
+						content: '\f104';
+					}
+				}
+			}
+		}
+	}
+}
