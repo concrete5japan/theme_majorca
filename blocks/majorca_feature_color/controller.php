@@ -2,6 +2,7 @@
 namespace Concrete\Package\ThemeMajorca\Block\MajorcaFeatureColor;
 
 use Concrete\Core\Editor\LinkAbstractor;
+use Concrete\Core\Html\Service\FontAwesomeIcon;
 use Page;
 use Concrete\Core\Block\BlockController;
 use Less_Parser;
@@ -82,23 +83,49 @@ class Controller extends BlockController
 
     protected function getIconClasses()
     {
-        $iconLessFile = DIR_BASE_CORE . '/css/build/vendor/font-awesome/variables.less';
-        $icons = array();
-
-        $l = new Less_Parser();
-        $parser = $l->parseFile($iconLessFile, false, true);
-        $rules = $parser->rules;
-
-        foreach ($rules as $rule) {
-            if ($rule instanceof Less_Tree_Rule) {
-                if (strpos($rule->name, '@fa-var') === 0) {
-                    $name = str_replace('@fa-var-', '', $rule->name);
-                    $icons[] = $name;
+        $icons = [];
+        if (class_exists(FontAwesomeIcon::class)) {
+            // V9
+            $txt = $this->app->make('helper/text');
+            $webfonts = [
+                [
+                    'prefix' => 'far',
+                    'handle' => 'fa-regular-400',
+                ],
+                [
+                    'prefix' => 'fas',
+                    'handle' => 'fa-solid-900',
+                ],
+                [
+                    'prefix' => 'fab',
+                    'handle' => 'fa-brands-400',
+                ],
+            ];
+            foreach ($webfonts as $webfont) {
+                $webfontsvg = DIR_BASE_CORE . '/css/webfonts/' . $webfont['handle'] . '.svg';
+                if (file_exists($webfontsvg)) {
+                    $xml = simplexml_load_file($webfontsvg);
+                    foreach ($xml->defs->font->glyph as $glyph) {
+                        $icons[] = $webfont['prefix'] . ' fa-' . $glyph['glyph-name'];
+                    }
                 }
             }
+        } else {
+            // V8
+            $iconLessFile = DIR_BASE_CORE . '/css/build/vendor/font-awesome/variables.less';
+            if (file_exists($iconLessFile)) {
+                $l = new Less_Parser();
+                $parser = $l->parseFile($iconLessFile, false, true);
+                $rules = $parser->rules;
+                foreach ($rules as $rule) {
+                    if (($rule instanceof Less_Tree_Rule) && strpos($rule->name, '@fa-var') === 0) {
+                        $name = str_replace('@fa-var-', '', $rule->name);
+                        $icons[] = $name;
+                    }
+                }
+                asort($icons);
+            }
         }
-        asort($icons);
-
         return $icons;
     }
 
