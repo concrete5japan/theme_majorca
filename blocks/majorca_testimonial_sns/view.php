@@ -1,10 +1,12 @@
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
 $noAvatarSrc = $this->getBlockURL(). '/img/avatar_none.png';
+$image = $image ?? '';
 ?>
 <div class="ccm-block-testimonial-wrapper">
     <div class="ccm-block-testimonial">
         <?php if ($image): ?>
+
             <div class="ccm-block-testimonial-image"><?php echo $image ?></div>
         <?php else: ?>
         	<div class="ccm-block-testimonial-image"><img src="<?php echo $noAvatarSrc; ?>" alt="No Avatar"></div>

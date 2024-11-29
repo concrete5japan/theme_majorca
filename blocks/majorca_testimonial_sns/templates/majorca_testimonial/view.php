@@ -1,6 +1,7 @@
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
 $noAvatarSrc = $this->getBlockURL(). '/img/avatar_none.png';
+$image = $image ?? '';
 ?>
 <div class="majorca-testimonial-wrapper">
     <div class="majorca-testimonial">
