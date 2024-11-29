@@ -1,6 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 
 $c = Page::getCurrentPage();
+$unique_identifier = $unique_identifier ?? '';
 if ($c->isEditMode()) { ?>
 	<div class="ccm-edit-mode-disabled-item" style="width: <?php echo $width; ?>; height: <?php echo $height; ?>">
 		<div style="padding: 80px 0px 0px 0px"><?php echo t('Google Map disabled in edit mode.')?></div>

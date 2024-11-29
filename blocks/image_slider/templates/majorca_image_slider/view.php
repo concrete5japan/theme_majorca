@@ -81,7 +81,7 @@ $(document).ready(function(){
                 $f = File::getByID($row['fID'])
                 ?>
                 <?php if (is_object($f)) {
-			    $tag = $app->make('html/image', array($f, false))->getTag();
+			    $tag = $app->make('html/image', ['f' => $f])->getTag();
 			    if ($row['title']) {
 			        $tag->alt($row['title']);
 			    } else {

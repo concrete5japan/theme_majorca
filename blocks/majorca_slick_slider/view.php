@@ -43,7 +43,7 @@ if ($fade == 1) {
 } else {
 	$slickFade = "false";
 }
-
+$slickCenterPadding = $slickCenterPadding ?? '';
 if ($centerMode == 1) {
 	$slickCenterMode = "true";
 	$slickInfinite = "true";
@@ -128,7 +128,7 @@ if ($c->isEditMode()) {
                 $f = File::getByID($row['fID'])
                 ?>
                 <?php if(is_object($f)) {
-                    $tag = $app->make('html/image', array($f, false))->getTag();
+                    $tag = $app->make('html/image', ['f' => $f])->getTag();
                     if($row['title']) {
                     	$tag->alt($row['title']);
                     }else{
