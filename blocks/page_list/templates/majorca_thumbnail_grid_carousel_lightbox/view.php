@@ -87,7 +87,7 @@ $c = Page::getCurrentPage();
 	            	<div class="card-thumb">
 						<?php $altText = $thumbnail->getTitle(); ?>
 						<?php
-							$img = $app->make('html/image', array($thumbnail));
+							$img = $app->make('html/image', ['f' => $thumbnail]);
 							$tag = $img->getTag();
 							$tag->addClass('img-responsive');
 							$tag->alt(h($altText));

@@ -58,7 +58,7 @@ $c = Page::getCurrentPage();
 	        		<div class="majorca-thumbnail-list-thumbnail">
 		                <?php $altText = $thumbnail->getTitle(); ?>
 		                <?php
-		                $img = $app->make('html/image', array($thumbnail));
+		                $img = $app->make('html/image', ['f' => $thumbnail]);
 		                $tag = $img->getTag();
 		                $tag->addClass('img-responsive');
 		                $tag->alt(h($altText));

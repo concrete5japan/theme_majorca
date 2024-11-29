@@ -83,7 +83,7 @@ $c = Page::getCurrentPage();
         	?>
             <div class="announcement-page-list-page-entry-thumbnail">
                 <?php
-                $img = $app->make('html/image', array($thumbnail));
+                $img = $app->make('html/image', ['f' => $thumbnail]);
 			    $tag = $img->getTag();
 			    $tag->addClass('img-responsive');
 			    $tag->alt(h($altText));
