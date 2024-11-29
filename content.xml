@@ -1695,11 +1695,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1714,11 +1715,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[eye]]></icon>
+                        <icon><![CDATA[fas fa-eye]]></icon>
                         <title><![CDATA[Pixel Perfect]]></title>
                         <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1733,11 +1735,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1958,11 +1961,12 @@
                   <block type="feature" name="" custom-template="hover_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fas fa-star]]></icon>
                         <title><![CDATA[Quality]]></title>
                         <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1971,11 +1975,12 @@
                   <block type="feature" name="" custom-template="hover_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[tint]]></icon>
+                        <icon><![CDATA[fas fa-tint]]></icon>
                         <title><![CDATA[Design]]></title>
                         <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1984,11 +1989,12 @@
                   <block type="feature" name="" custom-template="hover_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[cog]]></icon>
+                        <icon><![CDATA[fas fa-cog]]></icon>
                         <title><![CDATA[Development]]></title>
                         <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -1997,11 +2003,12 @@
                   <block type="feature" name="" custom-template="hover_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[lock]]></icon>
+                        <icon><![CDATA[fas fa-lock]]></icon>
                         <title><![CDATA[Security]]></title>
                         <paragraph><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales non leo id aliquet.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -4736,22 +4743,24 @@
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fas fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fas fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -4760,22 +4769,24 @@
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fas fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -4784,22 +4795,24 @@
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fas fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fas fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7906,11 +7919,12 @@
                   <block type="feature" name="">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fas fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7923,11 +7937,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fas fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7936,12 +7951,13 @@
                   <block type="feature" name="" custom-template="feature_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7954,12 +7970,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7968,12 +7985,13 @@
                   <block type="feature" name="" custom-template="feature_spin_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -7986,12 +8004,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h4]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8014,11 +8033,12 @@
                   <block type="feature" name="" custom-template="majorca_feature">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8038,11 +8058,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8051,12 +8072,13 @@
                   <block type="feature" name="" custom-template="majorca_feature">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8076,12 +8098,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8090,12 +8113,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_button">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8115,12 +8139,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8143,11 +8168,12 @@
                   <block type="feature" name="" custom-template="majorca_feature">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8167,11 +8193,12 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <externalLink><![CDATA[]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8180,12 +8207,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8205,12 +8233,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8219,12 +8248,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_spin_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8244,12 +8274,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8272,12 +8303,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8290,12 +8322,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8304,12 +8337,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8322,12 +8356,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8336,12 +8371,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_spin_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8354,12 +8390,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8368,12 +8405,13 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_spin_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8386,12 +8424,13 @@
                     </style>
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8414,24 +8453,26 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8440,24 +8481,26 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8466,24 +8509,26 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_spin_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_spin_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8492,24 +8537,26 @@
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_spin_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
                   <block type="feature" name="" custom-template="majorca_feature_card_type_description_spin_hover_icon">
                     <data table="btFeature">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
                         <externalLink><![CDATA[#]]></externalLink>
                         <internalLinkCID />
+                        <titleFormat><![CDATA[h1]]></titleFormat>
                       </record>
                     </data>
                   </block>
@@ -8532,7 +8579,7 @@
                   <block type="majorca_feature_color" name="">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8551,7 +8598,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8566,7 +8613,7 @@
                   <block type="majorca_feature_color" name="" custom-template="feature_hover_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8585,7 +8632,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8600,7 +8647,7 @@
                   <block type="majorca_feature_color" name="" custom-template="feature_spin_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8619,7 +8666,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8648,7 +8695,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8674,7 +8721,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8689,7 +8736,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_button">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8715,7 +8762,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8730,7 +8777,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_hover_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8756,7 +8803,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8771,7 +8818,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_spin_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8797,7 +8844,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8826,7 +8873,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_card_type">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[home]]></icon>
+                        <icon><![CDATA[fa fa-home]]></icon>
                         <title><![CDATA[Welcome Home]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8845,7 +8892,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[user]]></icon>
+                        <icon><![CDATA[fa fa-user]]></icon>
                         <title><![CDATA[Great Workers]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8860,7 +8907,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_card_type_hover_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[flag]]></icon>
+                        <icon><![CDATA[fa fa-flag]]></icon>
                         <title><![CDATA[Amazing Location]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8879,7 +8926,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[clock-o]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-clock]]></icon>
                         <title><![CDATA[Paid Time Off]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8894,7 +8941,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_card_type_spin_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[star]]></icon>
+                        <icon><![CDATA[fa fa-star]]></icon>
                         <title><![CDATA[No Meetings]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8913,7 +8960,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[beer]]></icon>
+                        <icon><![CDATA[fa fa-beer]]></icon>
                         <title><![CDATA[Free Drinks]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8928,7 +8975,7 @@
                   <block type="majorca_feature_color" name="" custom-template="majorca_feature_card_type_spin_hover_icon">
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -8947,7 +8994,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Curabitur sagittis elementum felis at sodales. Nullam fermentum at urna quis accumsan.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
