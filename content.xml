@@ -1215,7 +1215,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[pencil]]></icon>
+                        <icon><![CDATA[fa fa-fas fa-pencil-alt]]></icon>
                         <title><![CDATA[Easy to Edit]]></title>
                         <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
                         <linkType><![CDATA[]]></linkType>
@@ -1242,7 +1242,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[eye]]></icon>
+                        <icon><![CDATA[fas fa-eye]]></icon>
                         <title><![CDATA[Pixel Perfect]]></title>
                         <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>
@@ -1269,7 +1269,7 @@
                     </style>
                     <data table="btMajorcaFeatureColor">
                       <record>
-                        <icon><![CDATA[youtube-play]]></icon>
+                        <icon><![CDATA[fab fa-youtube]]></icon>
                         <title><![CDATA[Media Rich]]></title>
                         <paragraph><![CDATA[<p>Pellentesque ultricies ligula vel neque dictum, eu mollis tortor adipiscing. Etiam congue, est vel tincidunt vestibulum, nunc nunc porta nulla, at adipiscing neque tellus quis urna.</p>]]></paragraph>
                         <linkType><![CDATA[2]]></linkType>

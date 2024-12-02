@@ -2,6 +2,8 @@
 if (!isset($app)) {
     $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
 }
+$icon = $icon ?? '';
+
 ?>
 
 <fieldset>
@@ -14,7 +16,7 @@ if (!isset($app)) {
         <label class="control-label"><?php echo t('Preview')?></label>
         <div>
         <i data-preview="icon" <?php if ($icon) {
-        ?>class="fa fa-<?php echo $icon; ?>"<?php
+        ?>class="<?php echo $icon; ?>"<?php
         } ?>></i>
         </div>
     </div>
