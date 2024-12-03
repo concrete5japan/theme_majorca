@@ -2,22 +2,23 @@
 if (!isset($app)) {
     $app = \Concrete\Core\Support\Facade\Application::getFacadeApplication();
 }
+/** @var \Concrete\Block\Feature\Controller $controller */
+/** @var \Concrete\Core\Form\Service\Form $form */
+$bID = $bID ?? 0;
 $icon = $icon ?? '';
-
+$title = $title ?? '';
+$titleFormat = $titleFormat ?? '';
+$internalLinkCID = $internalLinkCID ?? 0;
+$externalLink = $externalLink ?? '';
+$colorPicker = $colorPicker ?? '';
 ?>
 
 <fieldset>
     <legend><?php echo t('Display'); ?></legend>
-    <div class="form-group ccm-block-feature-select-icon">
-        <label class="control-label" for="icon"><?php echo t('Icon')?></label>
-        <?php echo $form->select('icon', $icons, $icon); ?>
-    </div>
-    <div class="form-group">
-        <label class="control-label"><?php echo t('Preview')?></label>
-        <div>
-        <i data-preview="icon" <?php if ($icon) {
-        ?>class="<?php echo $icon; ?>"<?php
-        } ?>></i>
+    <div class="form-group ccm-block-select-icon">
+        <?php echo $form->label('icon', t('Icon'))?>
+        <div id="ccm-icon-selector-<?= h($bID) ?>">
+            <icon-selector name="icon" selected="<?= h($icon) ?>" title="<?= t('Choose Icon') ?>" empty-option-label="<?= h(tc('Icon', '** None Selected')) ?>" />
         </div>
     </div>
 
@@ -79,8 +80,8 @@ $icon = $icon ?? '';
     <div class="form-group">
         <?php echo $form->label('paragraph', t('Paragraph:'));?>
         <?php
-            $editor = $app->make('editor');
-            echo $editor->outputBlockEditModeEditor('paragraph', $controller->getParagraphEditMode());
+        $editor = Core::make('editor');
+        echo $editor->outputBlockEditModeEditor('paragraph', $controller->getParagraphEditMode());
         ?>
     </div>
 
@@ -111,12 +112,12 @@ $icon = $icon ?? '';
 
 <script type="text/javascript">
 $(function() {
-    $('div.ccm-block-feature-select-icon').on('change', 'select', function() {
-        $('i[data-preview="icon"]').removeClass();
-        if($(this).val()) {
-            $('i[data-preview="icon"]').addClass('fa fa-' + $(this).val());
-        }
-    });
+    Concrete.Vue.activateContext('cms', function(Vue, config) {
+        new Vue({
+            el: '#ccm-icon-selector-<?= h($bID) ?>',
+            components: config.components
+        })
+    })
     $('select[data-select=feature-link-type]').on('change', function() {
        if ($(this).val() == '0') {
            $('div[data-select-contents=feature-link-type-internal]').hide();
