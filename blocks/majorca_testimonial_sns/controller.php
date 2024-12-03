@@ -50,7 +50,7 @@ class Controller extends BlockController
         if ($this->fID) {
             $f = \File::getByID($this->fID);
             if (is_object($f)) {
-                $image = $this->app->make('html/image', array($f, false))->getTag();
+                $image = $this->app->make('html/image', ['f' => $f] )->getTag();
                 $image->alt($this->name);
                 $this->set('image', $image);
             }
