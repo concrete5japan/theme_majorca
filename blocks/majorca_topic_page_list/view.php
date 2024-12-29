@@ -7,6 +7,7 @@ if (!isset($app)) {
 $th = $app->make('helper/text');
 $dh = $app->make('helper/date');
 $c = Page::getCurrentPage();
+$selectedTopicID = $selectedTopicID ?? '' ;
 
 /**
  * This block should be used with Full Width.
@@ -225,7 +226,7 @@ $c = Page::getCurrentPage();
 					<?php if (is_object($thumbnail)): ?>
 						<?php $altText = $thumbnail->getTitle(); ?>
 						<?php
-							$img = $app->make('html/image', array($thumbnail));
+							$img = $app->make('html/image', ['f' => $thumbnail]);
 							$tag = $img->getTag();
 							$tag->addClass('img-responsive');
 							$tag->alt(h($altText));

@@ -16,7 +16,7 @@ if ($linkURL) {
     <?php  if ($title) { ?>
         <h4><?php echo h($title)?></h4>
     	<div class="icon">
-    		<i class="fa fa-<?php echo $icon?>" aria-hidden="true"></i>
+    		<i class="<?php echo $icon?>" aria-hidden="true"></i>
     	</div>
     <?php  } ?>
     	<div class="card-body">

@@ -140,7 +140,7 @@ if ($c->isEditMode()) {
 							<?php if(intval($row['fID'])) :
 								$f = \File::getByID($row['fID']); ?>
 								<?php   if (is_object($f)) :
-									$image = $app->make('html/image', array($f, false))->getTag();
+									$image = $app->make('html/image', ['f' => $f])->getTag();
 									$image->alt(h($row['name']));
 								?>
 								<div class="majorca-testimonial-image"><?php echo $image; ?></div>

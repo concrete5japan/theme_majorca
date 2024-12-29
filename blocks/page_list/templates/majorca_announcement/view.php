@@ -52,7 +52,7 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) {
 
                 // Prepare data for each page being listed...
                 //$buttonClasses = 'ccm-block-page-list-read-more';
-                //$entryClasses = 'ccm-block-page-list-page-entry';
+                $entryClasses = '';
                 $title = $page->getCollectionName();
                 if ($page->getCollectionPointerExternalLink() != '') {
                     $url = $page->getCollectionPointerExternalLink();
@@ -127,7 +127,7 @@ if ($c->isEditMode() && $controller->isBlockEmpty()) {
 			                    <div class="majorca-announcement-page-entry-thumbnail">
 									<?php $altText = $thumbnail->getTitle(); ?>
 									<?php
-										$img = $app->make('html/image', array($thumbnail));
+										$img = $app->make('html/image', ['f' => $thumbnail]);
 						                $tag = $img->getTag();
 						                $tag->addClass('img-responsive');
 						                $tag->alt(h($altText));

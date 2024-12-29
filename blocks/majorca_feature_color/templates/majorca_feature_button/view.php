@@ -3,7 +3,7 @@
 $title = h($title);
 ?>
 <div class="majorca-feature-item button feature-item-<?php echo $bID; ?>">
-	<i class="fa fa-<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i>
+	<i class="<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i>
 	<?php if (!($linkURL)) : ?>
     	<?php if ($title): ?>
     		<h4><?php echo $title; ?></h4>

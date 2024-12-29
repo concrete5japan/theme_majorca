@@ -14,7 +14,7 @@ if ($linkURL) {
 
     <?php if ($title) {
     ?>
-    	<i class="fa fa-<?php echo $icon ?>" aria-hidden="true"></i>
+    	<i class="<?php echo $icon ?>" aria-hidden="true"></i>
         <h4><?php echo $title ?></h4>
     <?php
 } ?>

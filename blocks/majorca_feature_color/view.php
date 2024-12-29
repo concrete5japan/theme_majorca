@@ -8,7 +8,7 @@ if ($linkURL) {
 <div class="ccm-block-feature-item">
     <?php if ($title) {
     ?>
-        <h4><i class="fa fa-<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i> <?php echo $title; ?></h4>
+        <h4><i class="<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i> <?php echo $title; ?></h4>
     <?php
 } ?>
     <?php

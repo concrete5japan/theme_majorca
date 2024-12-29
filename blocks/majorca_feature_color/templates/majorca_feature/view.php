@@ -22,7 +22,7 @@ if ($linkURL) {
 <div class="majorca-feature-item feature-item-<?php echo $bID; ?>">
     <?php if ($title) {
     ?>
-    	<i class="fa fa-<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i>
+    	<i class="<?php echo $icon; ?>" aria-hidden="true" style="background-color: <?php echo h($colorPicker); ?>"></i>
         <h4><?php echo $title; ?></h4>
     <?php
 } ?>

@@ -19,7 +19,13 @@ if ($mobileNavPosition == '') {
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?php View::element('header_required', array('pageTitle' => $pageTitle));?>
+        <?php
+        View::element('header_required', [
+            'pageTitle' => isset($pageTitle) ? $pageTitle : '',
+            'pageDescription' => isset($pageDescription) ? $pageDescription : '',
+            'pageMetaKeywords' => isset($pageMetaKeywords) ? $pageMetaKeywords : ''
+        ]);
+        ?>
 
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php  echo $view->getThemePath()?>/css/bootstrap.css">

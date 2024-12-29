@@ -77,6 +77,7 @@ $id = $controller->getIdentifier();
 
         <?php if ($rows) {
             foreach ($rows as $row) {
+        $row['sort_order'] = [];
                ?>
                testmonialEntriesContainer.append(_templateSlide({
                     tmeId: 0<?php echo intval($row['tmeId']); ?>,
@@ -92,7 +93,7 @@ $id = $controller->getIdentifier();
                     companyURL: '<?php echo h($row['companyURL']); ?>',
                     paragraph: '<?php echo h($row['paragraph']); ?>',
                     socialLink: <?php echo $row['socialLink'] ? $row['socialLink'] : $services; ?>,
-                    sort_order: '<?php echo $row['sort_order']; ?>',
+                    sort_order: '<?php echo implode(", ", $row['sort_order']); ?>',
                 }));
             <?php }
         } ?>

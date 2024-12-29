@@ -131,7 +131,7 @@ class Controller extends BlockController implements FileTrackableInterface
         $v = array($this->bID);
         $q = 'select * from btMajorcaSlickSliderEntries where bID = ?';
         $r = $db->query($q, $v);
-        while ($row = $r->FetchRow()) {
+        while ($row = $r->fetch()) {
             $db->executeQuery('INSERT INTO btMajorcaSlickSliderEntries (bID, fID, linkURL, title, description, sortOrder, internalLinkCID) values(?,?,?,?,?,?,?)',
                 array(
                     $newBID,
@@ -191,8 +191,8 @@ class Controller extends BlockController implements FileTrackableInterface
 		$args['infinite'] = isset($args['infinite']) ? 1 : 0;
         $args['fade'] = isset($args['fade']) ? 1 : 0;
         $args['centerMode'] = isset($args['centerMode']) ? 1 : 0;
-        $args['centerPadding'] = intval($args['centerPadding']);
-        $args['slidesToShow'] = intval($args['slidesToShow']);
+        $args['centerPadding'] = isset($args['centerPadding']) ? intval($args['centerPadding']) : 0;
+        $args['slidesToShow'] = isset($args['slidesToShow']) ? intval($args['slidesToShow']) : 0;
         $args['centerModeThumbNav'] = isset($args['centerModeThumbNav']) ? 1 : 0;
 
         $db = $this->app->make('database');

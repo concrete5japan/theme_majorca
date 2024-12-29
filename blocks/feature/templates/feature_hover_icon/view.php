@@ -10,7 +10,7 @@ if ($linkURL) {
 <div class="ccm-block-feature-item hover-icon">
     <?php if ($title) {
     ?>
-	<h4><?php if ($linkURL) : ?><a href="<?php echo $linkURL ?>"><?php endif; ?><i class="fa fa-<?php echo $icon; ?>" aria-hidden="true"></i> <?php echo $title; ?><?php if ($linkURL) : ?></a><?php endif; ?></h4>
+	<h4><?php if ($linkURL) : ?><a href="<?php echo $linkURL ?>"><?php endif; ?><i class="<?php echo $icon; ?>" aria-hidden="true"></i> <?php echo $title; ?><?php if ($linkURL) : ?></a><?php endif; ?></h4>
     <?php
 } ?>
     <?php

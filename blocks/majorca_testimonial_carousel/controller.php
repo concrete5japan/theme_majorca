@@ -157,7 +157,7 @@ class Controller extends BlockController implements FileTrackableInterface
         $q = 'select * from btMajorcaTestimonial_carouselEntries where bID = ? order by sortOrder';
         $r = $db->query($q, $v);
         $i = 0;
-        while ($row = $r->FetchRow()) {
+        while ($row = $r->fetch()) {
           $db->executeQuery('INSERT INTO btMajorcaTestimonial_carouselEntries(tmeId, bID, fID, name, position, company, companyURL, paragraph, socialLink, sortOrder) values(?,?,?,?,?,?,?,?,?,?)',
               array(
                 $i,
@@ -208,12 +208,12 @@ class Controller extends BlockController implements FileTrackableInterface
 
     public function save($data)
     {
-        $args['navigationType'] = isset($data['navigationType']) ? intval($args['navigationType']) : 1;
+        $args['navigationType'] = isset($data['navigationType']) ? intval($data['navigationType']) : 1;
         $args['timeout'] = intval($data['timeout']);
         $args['speed'] = intval($data['speed']);
         $args['noAnimate'] = isset($data['noAnimate']) ? 1 : 0;
         $args['pause'] = isset($data['pause']) ? 1 : 0;
-        $args['maxWidth'] = isset($data['maxWidth']) ? intval($args['maxWidth']) : 0;
+        $args['maxWidth'] = isset($data['maxWidth']) ? intval($data['maxWidth']) : 0;
         $args['infinite'] = isset($data['infinite']) ? 1 : 0;
         $args['slidesToShow'] = intval($data['slidesToShow']);
         $args['navigationType'] = $data['navigationType'];

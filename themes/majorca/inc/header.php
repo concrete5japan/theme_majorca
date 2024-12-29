@@ -5,6 +5,7 @@ $this->inc('inc/header_top.php');
 $chooseHeaderLayout = Config::get('app.theme_majorca.maj_header_layout');
 $mobileNavPosition = Config::get('app.theme_majorca.maj_mobile_nav_position');
 $headerDarkColor = Config::get('app.theme_majorca.maj_header_dark_color');
+$headerColor = '';
 
 if ($mobileNavPosition == '') {
 	$navPosition = 'left';
