@@ -6,11 +6,9 @@ if (!isset($app)) {
 
 
 <?php
+$fo = null;
 if ($fID > 0) {
     $fo = File::getByID($fID);
-    if (!is_object($fo)) {
-        unset($fo);
-    }
 }
 ?>
 
