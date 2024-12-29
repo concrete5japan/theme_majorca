@@ -1,0 +1,6 @@
+{
+    "name": "concrete5japan/theme_majorca",
+    "description": "Majorca - A Concrete CMS theme",
+    "type": "concrete5-package",
+    "license": "MIT"
+}
