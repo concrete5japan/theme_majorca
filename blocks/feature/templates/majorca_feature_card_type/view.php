@@ -3,7 +3,7 @@
 $title = h($title);
 /*
 if ($linkURL) {
-    $title = '<a href="' . $linkURL . '"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>' . $title . '</a>';
+    $title = '<a href="' . $linkURL . '"><i class="fas fa-chevron-circle-right" aria-hidden="true"></i>' . $title . '</a>';
 }
 */
 ?>

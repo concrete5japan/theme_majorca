@@ -242,7 +242,7 @@ $selectedTopicID = $selectedTopicID ?? '';
 							$tag->alt(h($altText));
 							echo $tag;
 						?>
-					<i class="fa fa-plus-circle" aria-hidden="true"></i>
+					<i class="fas fa-plus-circle" aria-hidden="true"></i>
 					<?php else: ?>
 						<img src="<?php echo $noImgSrc; ?>" alt="No Image" class="img-responsive">
 					<?php endif; ?>

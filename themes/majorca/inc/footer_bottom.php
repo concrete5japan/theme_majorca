@@ -11,7 +11,7 @@ if ($chooseFooterLayout == '') {
 ?>
 
 					<div class="scroll-page-top">
-						<a href="#page-content" class="top"><i class="fa fa-angle-up icon-arrow slideOutUp" aria-hidden="true"></i><span><?php echo t('Back to Top')?></span></a>
+						<a href="#page-content" class="top"><i class="fas fa-angle-up icon-arrow slideOutUp" aria-hidden="true"></i><span><?php echo t('Back to Top')?></span></a>
 					</div>
 
 					<?php  $this->inc('inc/layout/footer_' .$footerLayout. '.php'); ?>

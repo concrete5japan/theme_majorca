@@ -65,7 +65,7 @@ $colorPicker = $colorPicker ?? '';
 
     <div class="form-group">
         <?php  echo $form->label("colorPicker", t("Icon Color Picker")); ?>
-        <p style="font-size: .8em; line-height: 1.2;"><i class="fa fa-asterisk"></i> <?php  echo t("Please pick up a color in the picker or input in RGB color values.<br>For example: rgb(0, 0, 255)"); ?></p>
+        <p style="font-size: .8em; line-height: 1.2;"><i class="fas fa-asterisk"></i> <?php  echo t("Please pick up a color in the picker or input in RGB color values.<br>For example: rgb(0, 0, 255)"); ?></p>
         <?php  echo isset($btFieldsRequired) && in_array('colorPicker', $btFieldsRequired) ? '<small class="required">' . t('Required') . '</small>' : null; ?>
         <div><?php  echo $form->text("colorPicker", $colorPicker, array (
       'placeholder' => NULL,

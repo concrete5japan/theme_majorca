@@ -2,7 +2,7 @@
 <?php
 $title = h($title);
 if ($linkURL) {
-    $title = '<a href="' . $linkURL . '"><i class="fa fa-angle-right" aria-hidden="true"></i>' . $title . '</a>';
+    $title = '<a href="' . $linkURL . '"><i class="fas fa-angle-right" aria-hidden="true"></i>' . $title . '</a>';
 }
 ?>
 <div class="majorca-feature-item">

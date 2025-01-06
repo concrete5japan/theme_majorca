@@ -57,7 +57,7 @@ if (ua_discriminant() == true) {
     //$loc->pushActiveContext(Localization::CONTEXT_UI);
     ?>
     <div class="ccm-edit-mode-disabled-item" style="<?php echo isset($width) ? "width: $width;" : '' ?><?php echo isset($height) ? "height: $height;" : '' ?>">
-        <i style="font-size:40px; margin:20px 0; display:block;" class="fa fa-film" aria-hidden="true"></i>
+        <i style="font-size:40px; margin:20px 0; display:block;" class="fas fa-film" aria-hidden="true"></i>
         <div style="padding: 40px 0px 40px 0px">
 	        <?php echo t('Splash Video disabled in edit mode.')?><br><?php echo t('Please edit with theme option.')?>
         </div>
@@ -191,7 +191,7 @@ if (ua_discriminant() == true) {
 							<?php endif; ?>
 							<?php if ($splashSkipButton): ?>
 							<div class="start-scroll-btn">
-								<a class="start-scroll" href="#header-content"><p><?php echo t($splashButtonText); ?></p><p><?php echo t('scroll'); ?><i class="fa fa-angle-down icon-arrow" aria-hidden="true"></i></p></a>
+								<a class="start-scroll" href="#header-content"><p><?php echo t($splashButtonText); ?></p><p><?php echo t('scroll'); ?><i class="fas fa-angle-down icon-arrow" aria-hidden="true"></i></p></a>
 							</div>
 							<?php endif; ?>
 						</div>

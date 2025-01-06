@@ -50,7 +50,7 @@ if (is_object($f) && $f->getFileID()) {
 
     echo $tag;
 
-        echo '</a><i class="fa fa-plus-circle" aria-hidden="true"></i>';
+        echo '</a><i class="fas fa-plus-circle" aria-hidden="true"></i>';
 
 } elseif ($c->isEditMode()) { ?>
     <div class="ccm-edit-mode-disabled-item"><?php echo t('Empty Image Block.'); ?></div>

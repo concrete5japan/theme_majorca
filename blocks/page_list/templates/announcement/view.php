@@ -26,7 +26,7 @@ $c = Page::getCurrentPage();
     ?>
 
     <?php if (isset($rssUrl) && $rssUrl): ?>
-        <a href="<?php echo $rssUrl ?>" target="_blank" class="announcement-page-list-rss-feed"><i class="fa fa-rss"></i></a>
+        <a href="<?php echo $rssUrl ?>" target="_blank" class="announcement-page-list-rss-feed"><i class="fas fa-rss"></i></a>
     <?php endif;
     ?>
 
