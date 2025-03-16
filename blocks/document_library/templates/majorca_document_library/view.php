@@ -59,7 +59,7 @@ $c = Page::getCurrentPage();
 <?php if ($canAddFiles) { ?>
     <div data-document-library-upload-action="<?php echo $view->action('upload'); ?>" data-document-library-add-files="<?php echo $bID; ?>" class="ccm-block-document-library-add-files-uploader">
         <div class="ccm-block-document-library-add-files-pending"><?php echo t('Upload Files'); ?></div>
-        <div class="ccm-block-document-library-add-files-uploading"><?php echo t('Uploading'); ?> <i class="fa fa-spin fa-spinner"></i></div>
+        <div class="ccm-block-document-library-add-files-uploading"><?php echo t('Uploading'); ?> <i class="fas fa-spin fa-spinner"></i></div>
         <input type="file" name="file" />
         <?php echo $app->make('token')->output(); ?>
     </div>

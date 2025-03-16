@@ -1091,7 +1091,7 @@
                                         <data table="btContentLocal">
                                             <record>
                                                 <content>
-                                                    <![CDATA[<p><a href="{ccm:export:page:/team/careers}" style="background-color: rgb(255, 255, 255);"><i class="fa fa-arrow-left"></i> Back to Careers</a></p>]]></content>
+                                                    <![CDATA[<p><a href="{ccm:export:page:/team/careers}" style="background-color: rgb(255, 255, 255);"><i class="fas fa-arrow-left"></i> Back to Careers</a></p>]]></content>
                                             </record>
                                         </data>
                                     </block>
@@ -10803,7 +10803,7 @@
                         <data table="btContentLocal">
                             <record>
                                 <content>
-                                    <![CDATA[<p><i class="fa fa-asterisk"></i> <strong>This page is a sample. So it doesn't work.</strong></p>]]></content>
+                                    <![CDATA[<p><i class="fas fa-asterisk"></i> <strong>This page is a sample. So it doesn't work.</strong></p>]]></content>
                             </record>
                         </data>
                     </block>

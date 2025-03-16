@@ -372,7 +372,7 @@ $id = $controller->getIdentifier();
             <% if (image_url.length > 0) { %>
                 <img src="<%= image_url %>" />
             <% } else { %>
-                <i class="fa fa-picture-o"></i>
+                <i class="far fa-image"></i>
             <% } %>
         </div>
         <input type="hidden" name="<?php echo $view->field('fID'); ?>[]" class="image-fID" value="<%=fID%>" />
@@ -411,7 +411,7 @@ $id = $controller->getIdentifier();
        if(value.isView == 1){
           color = "#000000";
       }%>
-	  <a href="javascript:void(0)" class="social-toggle-button-<?php echo $bID?>" id="social-toggle-button-<?php echo $bID?>-<%=key%>-<%=tmeId%>" data-id="<%=key%>-container-<%=tmeId%>-<?php echo $bID?>"><i class="fa fa-<%=key%>" style="color:<%-color%>"></i></a>
+	  <a href="javascript:void(0)" class="social-toggle-button-<?php echo $bID?>" id="social-toggle-button-<?php echo $bID?>-<%=key%>-<%=tmeId%>" data-id="<%=key%>-container-<%=tmeId%>-<?php echo $bID?>"><i class="fab fa-<%=key%>" style="color:<%-color%>"></i></a>
     <% }); %>
 
     <% _.each(socialLink, function(value,key) { %>
@@ -431,7 +431,7 @@ $id = $controller->getIdentifier();
 
     <button type="button" class="btn btn-sm btn-default ccm-edit-slide ccm-edit-slide-<?php echo $bID?>" data-slide-close-text="<?php echo t('Collapse Testmonial Item'); ?>" data-slide-edit-text="<?php echo t('Edit Testmonial Item'); ?>"><?php echo t('Edit Testmonial Item'); ?></button>
     <button type="button" class="btn btn-sm btn-danger ccm-delete-testmonial-entry delete-majorca-testimonial-carousel-entry-<?php echo $bID?>"><?php echo t('Remove'); ?></button>
-    <i class="fa fa-arrows"></i>
+    <i class="fas fa-arrows-alt"></i>
     <input class="majorca-testimonial-carousel-entry-sort" type="hidden" name="<?php echo $view->field('sortOrder'); ?>[]" value="<%=sort_order%>"/>
   </div>
 </script>

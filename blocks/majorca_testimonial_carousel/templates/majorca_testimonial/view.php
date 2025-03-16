@@ -64,13 +64,13 @@ if ($c->isEditMode()) {
 
     ?>
     <div class="ccm-edit-mode-disabled-item" style="<?php echo isset($width) ? "width: $width;" : '' ?><?php echo isset($height) ? "height: $height;" : '' ?>">
-        <i style="font-size:40px; margin-bottom:20px; display:block;" class="fa fa-user-circle" aria-hidden="true"></i>
+        <i style="font-size:40px; margin-bottom:20px; display:block;" class="far fa-user-circle" aria-hidden="true"></i>
         <div style="padding: 40px 0px 40px 0px"><?php echo t('Testmonial Carousel disabled in edit mode.')?>
 			<div style="margin-top: 15px; font-size:9px;">
-				<i class="fa fa-circle" aria-hidden="true"></i>
+				<i class="fas fa-circle" aria-hidden="true"></i>
 				<?php if (count($rows) > 0) { ?>
 					<?php foreach (array_slice($rows, 1) as $row) { ?>
-						<i class="fa fa-circle-thin" aria-hidden="true"></i>
+						<i class="far fa-circle" aria-hidden="true"></i>
 						<?php }
 					}
 				?>
@@ -187,7 +187,7 @@ if ($c->isEditMode()) {
 							            <?php foreach($row['socialLink'] as $key => $value){
 											if($value['isView'] == 1){
 										 ?>
-											<li><a href="<?php echo $value['url']; ?>" class="testimonial-circle-icon"><i class="fa fa-<?php echo $key ?>"></i></a></li>
+											<li><a href="<?php echo $value['url']; ?>" class="testimonial-circle-icon"><i class="fab fa-<?php echo $key ?>"></i></a></li>
 											<?php } ?>
 							            <?php } ?>
 							        	</ul>

@@ -56,7 +56,7 @@ foreach($services as $key => $service){
   if($service['isView'] == 1){
     $color = "#000000";
   } ?>
-  <a href="javascript:void(0)" class="social-toggle-button-<?php echo $bID?>" id="social-toggle-button-<?php echo $bID?>-<?php echo h($key);?>" data-id="<?php echo h($key);?>-container-<?php echo $bID?>"><i class="fa fa-<?php echo h($key); ?>" style="color:<?php echo $color?>"></i></a>
+  <a href="javascript:void(0)" class="social-toggle-button-<?php echo $bID?>" id="social-toggle-button-<?php echo $bID?>-<?php echo h($key);?>" data-id="<?php echo h($key);?>-container-<?php echo $bID?>"><i class="fab fa-<?php echo h($key); ?>" style="color:<?php echo $color?>"></i></a>
 <?php }
 
 foreach($services as $key => $service){

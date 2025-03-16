@@ -190,14 +190,14 @@ $form = $app->make('helper/form/page_selector');
 
                 <div class="filterDateOptionDetail" data-filterDateOption="past">
                     <div class="form-group">
-                        <label class="control-label"><?php echo t('Days in the Past')?> <i class="launch-tooltip fa fa-question-circle" title="<?php echo t('Leave 0 to show all past dated pages')?>"></i></label>
+                        <label class="control-label"><?php echo t('Days in the Past')?> <i class="launch-tooltip far fa-question-circle" title="<?php echo t('Leave 0 to show all past dated pages')?>"></i></label>
                         <input type="text" name="filterDatePast" value="<?php echo $filterDateDays ?>" class="form-control">
                     </div>
                 </div>
 
                 <div class="filterDateOptionDetail" data-filterDateOption="future">
                     <div class="form-group">
-                        <label class="control-label"><?php echo t('Days in the Future')?> <i class="launch-tooltip fa fa-question-circle" title="<?php echo t('Leave 0 to show all future dated pages')?>"></i></label>
+                        <label class="control-label"><?php echo t('Days in the Future')?> <i class="launch-tooltip far fa-question-circle" title="<?php echo t('Leave 0 to show all future dated pages')?>"></i></label>
                         <input type="text" name="filterDateFuture" value="<?php echo $filterDateDays ?>" class="form-control">
                     </div>
                 </div>
@@ -551,7 +551,7 @@ $form = $app->make('helper/form/page_selector');
 
 
                 <div class="loader">
-                    <i class="fa fa-cog fa-spin"></i>
+                    <i class="fas fa-cog fa-spin"></i>
                 </div>
 
     </div>

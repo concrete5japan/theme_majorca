@@ -195,7 +195,7 @@ $app = Application::getFacadeApplication();
 
             echo $imageTag;
 
-            echo '</a><i class="fa fa-plus-circle" aria-hidden="true"></i>';
+            echo '</a><i class="fas fa-plus-circle" aria-hidden="true"></i>';
         }
 
 

@@ -53,7 +53,7 @@ $image = $image ?? '';
                 if(is_array($socialLinks)){
                   foreach($socialLinks as $key => $service){
                     if($service['isView']){ ?>
-                      <li><a href="<?php echo h($service['url']); ?>" class="testimonial-circle-icon"><i class="fa fa-<?php echo h($key);?>"></i></a></li>
+                      <li><a href="<?php echo h($service['url']); ?>" class="testimonial-circle-icon"><i class="fab fa-<?php echo h($key);?>"></i></a></li>
                     <?php }
                   }
                 }

@@ -64,7 +64,7 @@ $c = Page::getCurrentPage();
 		                $tag->alt(h($altText));
 					    echo $tag;
 		                ?>
-					    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+					    <i class="fas fa-plus-circle" aria-hidden="true"></i>
 	            	</div>
 	            </a>
 	            <?php else: ?>

@@ -280,7 +280,7 @@ $al = $app->make('helper/concrete/asset_library');
             	<li><?php echo t('Item appear from the right : Add "item-right" in a custom class'); ?></li>
             	<li><?php echo t('Item fade in : Add "item-fade-in" in a custom class'); ?></li>
             </ul>
-            <p><i class="fa fa-asterisk"></i> <?php echo t('"jquery.appear.js" does not work in edit mode.'); ?></p>
+            <p><i class="fas fa-asterisk"></i> <?php echo t('"jquery.appear.js" does not work in edit mode.'); ?></p>
 	    </div>
 
 		<hr>
